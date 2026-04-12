@@ -1,142 +1,646 @@
 [
   {
-    "data": "12/04/2026",
-    "titulo": "Trump ordena bloqueio total ao Estreito de Ormuz e avisa que o Irão será ”eliminado”",
-    "desc": "Clique para ler",
-    "img": "https://mznews.co.mz/wp-content/uploads/2026/04/Estreito-de-Ormuz.jpeg",
+    "data": "01/03/2026",
+    "titulo": "Governo lança 1.000 estágios remunerados para jovens em Nampula, Cabo Delgado e Niassa",
+    "desc": "O Ministério da Economia, através da iniciativa 'Conecta Negócios' financiada pelo Banco Mundial, lançou 1.000 estágios remunerados para jovens das províncias de Cabo Delgado, Nampula e Niassa. Com um orçamento superior a um milhão de dólares para remunerações, o programa visa combater o desemprego jovem numa região afectada pelo terrorismo e deslocamentos internos. Setenta por cento das vagas estão alocadas a Cabo Delgado, 20% a Nampula e 10% a Niassa, reflectindo a vulnerabilidade específica de cada território. De acordo com Nocif Magaia, da ADIN, cerca de 70% dos estagiários poderão ser contratados pelas empresas após a formação. O programa está alinhado com a retoma dos megaprojectos na área de recursos naturais e a criação de nove parques industriais em Cabo Delgado até 2029, que devem gerar mais de 20.000 postos de trabalho.",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews",
-    "link_real": "https://mznews.co.mz/trump-ordena-bloqueio-total-ao-estreito-de-ormuz-e-avisa-que-o-irao-sera-eliminado/"
+    "categoria": "Economia"
   },
   {
-    "data": "12/04/2026",
-    "titulo": "Trump ordena bloqueio total ao Estreito de Ormuz e avisa que o Irão será ”eliminado”",
-    "desc": "Clique para ler",
-    "img": "https://mznews.co.mz/wp-content/uploads/2026/04/Estreito-de-Ormuz.jpeg",
+    "data": "01/03/2026",
+    "titulo": "Empresa Municipal de Transportes de Nampula abre concurso para 15 motoristas",
+    "desc": "A Empresa Municipal de Transportes Públicos de Nampula (EMTPN) publicou um concurso público para a contratação de 15 motoristas. O anúncio, divulgado pelo Conselho Municipal de Nampula no dia 26 de Fevereiro, estabelece um prazo de 15 dias para a submissão de candidaturas. Os requisitos incluem idade entre 18 e 45 anos, carta de condução de serviços públicos, habilitações mínimas da 10ª classe, e atestado médico que comprove capacidade física e sanidade mental para o exercício da função. Os interessados devem entregar a documentação na Secretaria Geral do Conselho Municipal de Nampula, durante o horário normal de expediente. O concurso representa uma oportunidade significativa para motoristas da região norte do país que buscam estabilidade no sector público de transportes.",
+    "img": "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=600",
     "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews",
-    "link_real": "https://mznews.co.mz/trump-ordena-bloqueio-total-ao-estreito-de-ormuz-e-avisa-que-o-irao-sera-eliminado/"
+    "categoria": "Sociedade"
   },
   {
-    "data": "12/04/2026",
-    "titulo": "Trump ordena bloqueio total ao Estreito de Ormuz e avisa que o Irão será ”eliminado”",
-    "desc": "Clique para ler",
-    "img": "https://mznews.co.mz/wp-content/uploads/2026/04/Estreito-de-Ormuz.jpeg",
+    "data": "01/03/2026",
+    "titulo": "Ciclone Jude ameaça província de Cabo Delgado com ventos de 200 km/h",
+    "desc": "O Instituto Nacional de Meteorologia (INAM) emitiu um alerta vermelho para a província de Cabo Delgado devido à aproximação do ciclone Jude, que deverá atingir a costa norte de Moçambique nas próximas 48 horas com ventos que podem alcançar os 200 quilómetros por hora. As autoridades locais iniciaram esta quinta-feira a evacuação preventiva das populações que residem em zonas de risco, particularmente nos distritos de Palma, Mocímboa da Praia e Macomia. O Instituto Nacional de Gestão e Redução do Risco de Desastres (INGD) mobilizou equipas de resposta rápida e reforçou os stocks de bens essenciais nos centros de acomodação da região. As equipas humanitárias, incluindo organizações como a Save the Children e a World Vision, encontram-se em estado de prontidão para prestar assistência às comunidades que possam ser afectadas. A província de Cabo Delgado já havia sido severamente impactada por ciclones em anos anteriores, o que levanta preocupações adicionais sobre a resiliência das infraestruturas e a capacidade de resposta num contexto de insegurança persistente.",
+    "img": "https://images.unsplash.com/photo-1613994195320-3788d03f4878?q=80&w=600",
     "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews",
-    "link_real": "https://mznews.co.mz/trump-ordena-bloqueio-total-ao-estreito-de-ormuz-e-avisa-que-o-irao-sera-eliminado/"
+    "categoria": "Sociedade"
   },
   {
-    "data": "12/04/2026",
-    "titulo": "Trump ordena bloqueio total ao Estreito de Ormuz e avisa que o Irão será ”eliminado”",
-    "desc": "Clique para ler",
-    "img": "",
+    "data": "01/03/2026",
+    "titulo": "World Vision recruta 12 inquiridores em Monapo para recolha de dados qualitativos",
+    "desc": "A World Vision Moçambique está a recrutar 12 inquiridores para a realização de recolha de dados qualitativos no distrito de Monapo, província de Nampula. De acordo com o anúncio publicado pela organização, os candidatos devem residir no distrito de Monapo, especificamente nas localidades de Netia ou Itoculo, possuir a 12ª classe concluída (sendo que nível superior constitui vantagem) e fluência em português e emacua. A organização procura pessoas com experiência no manuseamento de smartphones e conhecimento aprofundado da área geográfica onde será realizada a recolha. As responsabilidades incluem a condução de entrevistas, o registo fiel dos dados recolhidos e o cumprimento rigoroso da Política de Salvaguarda de Crianças e Adultos. A organização alerta que o processo de recrutamento é totalmente gratuito e que os candidatos não devem aceitar qualquer tipo de cobrança. As candidaturas devem ser entregues em envelope selado no escritório da World Vision em Monapo.",
+    "img": "https://images.unsplash.com/photo-1573497620053-e3a0e9f0a54a?q=80&w=600",
     "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews",
-    "link_real": "https://mznews.co.mz/trump-ordena-bloqueio-total-ao-estreito-de-ormuz-e-avisa-que-o-irao-sera-eliminado/"
+    "categoria": "Sociedade"
   },
   {
-    "data": "12/04/2026",
-    "titulo": "PR Chapo propõe eliminação de órgãos estaduais nas províncias para poupar 1,25 mil milhões de meticais",
-    "desc": "O Presidente Daniel Chapo submeteu ao parlamento um projeto de lei que elimina um nível inteiro da governação provincial...",
-    "img": "https://images.unsplash.com/photo-1529101091764-c3526daf3e8a?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Política",
-    "link_real": "https://opais.co.mz/chapo-propoe-eliminacao-de-orgaos-estaduais/"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "LAM anuncia retoma gradual de voos domésticos após reestruturação",
-    "desc": "As Linhas Aéreas de Moçambique (LAM) anunciaram a retoma gradual dos voos domésticos...",
-    "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Economia",
-    "link_real": "https://www.lam.co.mz/comunicados/retoma-voos-domesticos"
-  },
-  {
-    "data": "11/04/2026",
-    "titulo": "Greve dos profissionais de saúde entra na terceira semana com impacto crescente nos hospitais",
-    "desc": "A greve dos profissionais de saúde, convocada pela Associação dos Profissionais de Saúde de Moçambique...",
-    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Saúde",
-    "link_real": "https://aimnews.org/2026/04/11/greve-profissionais-saude/"
-  },
-  {
-    "data": "11/04/2026",
-    "titulo": "INAM emite alerta vermelho para as províncias de Sofala e Manica devido a chuvas extremas",
-    "desc": "O Instituto Nacional de Meteorologia (INAM) emitiu um alerta vermelho para as províncias de Sofala e Manica...",
-    "img": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Sociedade",
-    "link_real": "https://www.inam.gov.mz/alertas/alerta-vermelho-sofala-manica"
-  },
-  {
-    "data": "10/04/2026",
-    "titulo": "Governo e FMI iniciam negociações para novo programa de assistência financeira",
-    "desc": "Uma equipa do Fundo Monetário Internacional (FMI) chegou a Maputo para iniciar negociações...",
-    "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Economia",
-    "link_real": "https://www.bancomoc.mz/comunicados/fmi-negociacoes-2026"
-  },
-  {
-    "data": "10/04/2026",
-    "titulo": "TotalEnergies anuncia conclusão da fase final do projecto de gás em Cabo Delgado para 2027",
-    "desc": "A TotalEnergies anunciou que a fase final do megaprojecto de gás natural em Afungi...",
-    "img": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Economia",
-    "link_real": "https://totalenergies.com/mozambique/lng-project-update-2026"
-  },
-  {
-    "data": "09/04/2026",
-    "titulo": "Mais de 200 mil alunos continuam sem aulas devido a cheias e ciclone nas províncias do centro e norte",
-    "desc": "O Ministério da Educação e Desenvolvimento Humano (MINED) revelou que mais de 200 mil alunos continuam sem poder frequentar as aulas...",
-    "img": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Educação",
-    "link_real": "https://www.mined.gov.mz/comunicados/alunos-sem-aulas-cheias"
-  },
-  {
-    "data": "09/04/2026",
-    "titulo": "GCCC detém mais 5 funcionários públicos por desvio de fundos das cheias em Gaza",
-    "desc": "O Gabinete Central de Combate à Corrupção (GCCC) deteve mais cinco funcionários públicos...",
-    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Política",
-    "link_real": "https://www.gccc.gov.mz/comunicados/detidos-desvio-fundos-gaza"
-  },
-  {
-    "data": "08/04/2026",
-    "titulo": "Vodacom Moçambique lança serviço 5G nas cidades de Maputo, Matola e Beira",
-    "desc": "A Vodacom Moçambique anunciou o lançamento oficial do serviço de internet móvel 5G...",
-    "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=600",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "link_real": "https://www.vodacom.co.mz/5g/lancamento-maputo-matola-beira"
-  },
-  {
-    "data": "08/04/2026",
-    "titulo": "INAE interdita 12 fábricas de processamento de castanha de caju em Nampula por violações laborais",
-    "desc": "A Inspecção Nacional de Actividades Económicas (INAE) interditou 12 fábricas de processamento de castanha de caju...",
+    "data": "01/03/2026",
+    "titulo": "Projeto inovador vai transformar cascas de caju em energia limpa na província de Nampula",
+    "desc": "A organização francesa Nitidæ, em parceria com a Enabel através do programa Junt@sClima, está a implementar um projeto inovador na província de Nampula para a valorização energética das cascas de caju. A indústria da castanha de caju em Nampula gera cerca de 34.000 toneladas anuais de cascas, um subproduto com elevado potencial energético que pode ser convertido em biocombustível. O projeto visa promover a utilização da casca de caju e seus derivados (CNSL e torta) como combustíveis alternativos para uso produtivo, através da instalação de dispositivos-piloto de combustão. Além disso, inclui componentes de formação de profissionais locais para estimular o surgimento de fornecedores de equipamentos especializados e de eficiência energética fora da rede eléctrica. A iniciativa representa um passo significativo para a sustentabilidade ambiental e o aproveitamento de recursos locais na região norte do país.",
     "img": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=600",
-    "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "link_real": "https://www.inae.gov.mz/comunicados/interdicao-fabricas-caju"
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Mais de 40 mil alunos sem aulas em escolas transformadas em centros de acolhimento em Gaza",
+    "desc": "Na província de Gaza, mais de 40 mil alunos continuam sem poder frequentar as aulas devido à utilização de escolas como centros de acolhimento para vítimas das cheias que assolaram a região no início do ano. A situação é particularmente crítica nos distritos de Xai-Xai, Chibuto e Bilene, onde pelo menos 15 escolas permanecem ocupadas por famílias deslocadas. O início do ano lectivo de 2026, que ocorreu na última semana, ficou marcado pelo atraso na retoma das actividades lectivas nestas unidades de ensino. O governo provincial anunciou que está em curso a desactivação progressiva dos centros de acolhimento, com a transferência das famílias para outras infraestruturas, mas reconhece que o processo poderá levar várias semanas. Entretanto, as crianças afectadas estão a receber apoio educativo em espaços improvisados, com o envolvimento de organizações como a Save the Children e o UNICEF, que têm disponibilizado kits pedagógicos e promovido actividades de recreação e apoio psicossocial.",
+    "img": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Educação"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Jovem moçambicano cria óculos inovadores para devolver autonomia a pessoas cegas",
+    "desc": "João Rego, engenheiro electrónico de 24 anos, desenvolveu um protótipo de óculos com 10 sensores que detectam obstáculos até 8 metros de distância. O dispositivo usa vibrações para alertar o utilizador e visa beneficiar os cerca de 700 mil moçambicanos com limitações visuais graves.",
+    "img": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Digitalização das Línguas Moçambicanas e IA é tema de novo livro",
+    "desc": "Foi lançado o livro 'Digitalização das Línguas Moçambicanas e Inteligência Artificial: Desafios e Perspectivas', dos professores Armindo Ngunga e António Ndapassoa. O ministro Américo Muchanga destacou a importância para a inclusão digital das línguas locais.",
+    "img": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique e EUA criam grupo de trabalho comercial bilateral",
+    "desc": "Os governos de Moçambique e dos Estados Unidos acordaram a criação de um grupo de trabalho comercial bilateral para melhorar o ambiente de negócios. Os EUA vão financiar com 1,8 milhão de dólares o estudo de viabilidade para exploração de terras raras no monte Muambe, em Tete.",
+    "img": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Economia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "PR coloca educação no centro da estratégia para desenvolvimento nacional",
+    "desc": "O Presidente da República, Daniel Chapo, reafirmou o compromisso do Governo em continuar a privilegiar a educação para a construção de uma nação promissora, durante a cerimónia de abertura do ano lectivo 2026 na cidade da Beira.",
+    "img": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Educação"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Gaza desactiva centros de acolhimento em escolas após inundações",
+    "desc": "Na Província de Gaza, está na fase conclusiva a desactivação dos centros de acolhimento das vítimas das cheias que funcionavam em escolas, permitindo o início das aulas do ano lectivo 2026.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Sociedade"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Continua suspensa circulação nocturna de veículos na EN1",
+    "desc": "Os ministérios dos Transportes e Logística e do Interior decidiram manter a suspensão da circulação nocturna de veículos de transporte colectivo e semi-colectivo de passageiros até 30 de Abril de 2026.",
+    "img": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Infraestrutura"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique lidera saúde mental jovem entre países lusófonos",
+    "desc": "Moçambique é o país lusófono com melhor desempenho no recente ranking global de saúde mental jovem, enquanto o Brasil surge entre os piores classificados.",
+    "img": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Saúde"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "FMI recomenda ajustes salariais e suspensão do 13.º mês",
+    "desc": "O Fundo Monetário Internacional defende que Moçambique deve cortar as remunerações da função pública e eliminar o pagamento do 13.º salário para garantir equilíbrio fiscal, visto que a folha salarial do país é de 14% do PIB.",
+    "img": "https://images.unsplash.com/photo-1565514158740-064f34bd6cf4?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Economia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "GCCC detém antigo Director Geral da LAM por corrupção",
+    "desc": "O antigo Director Geral das Linhas Aéreas de Moçambique (LAM), João Carlos Pó Jorge, foi detido em Maputo no âmbito de um processo-crime por corrupção, movido pelo Gabinete Central de Combate à Corrupção.",
+    "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Corrupção"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Mais de 16 mil famílias ameaçadas pela fome em Namacurra",
+    "desc": "Mais de 16 mil famílias camponesas estão em risco de fome no distrito de Namacurra, na Zambézia, na sequência da destruição de cerca de sete mil hectares de culturas alimentares por inundações.",
+    "img": "https://images.unsplash.com/photo-1543962520-94c2e88905fb?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Sociedade"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Doenças de origem hídrica fazem seis mortos em Maputo",
+    "desc": "Seis pessoas morreram e mais de 20 mil testaram positivo para doenças de origem hídrica durante a presente época chuvosa na cidade de Maputo, incluindo mais de quatro mil casos de malária.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Saúde"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Segunda fase do Diálogo Nacional Inclusivo arranca a 10 de Março",
+    "desc": "Arranca no próximo dia 10 de Março a segunda fase do processo de auscultação no âmbito do Diálogo Nacional Inclusivo, abrangendo zonas rurais do país com duração prevista de dois meses.",
+    "img": "https://images.unsplash.com/photo-1573164713988-2485fc5498d0?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Política"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique precisa de uma Unidade de Supervisão e Ética da IA",
+    "desc": "Especialistas defendem a criação de uma Unidade de Supervisão e Ética da Inteligência Artificial para garantir o uso ético, transparente e alinhado aos interesses nacionais, inspirando-se em modelos da UE, Ruanda e Botswana.",
+    "img": "https://images.unsplash.com/photo-1677442136019-21780a5c6b6e?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique terá primeira fábrica nacional de telemóveis",
+    "desc": "A Moz-Sure está a construir uma fábrica no Parque Industrial de Beluluane para produzir telemóveis 'made in Moçambique'. Com investimento de 3 milhões de dólares, a unidade terá capacidade para 300 mil unidades/mês e criará 160 empregos directos.",
+    "img": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Conferência Nacional sobre Transformação Digital marca início de estratégia",
+    "desc": "Realizou-se a Conferência Nacional sobre Transformação Digital, marco inicial para a elaboração da Estratégia Nacional de Transformação Digital de Moçambique, com consultas regionais previstas a partir de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Impissa defende 'smartphoneização' dos serviços públicos",
+    "desc": "O ministro Inocêncio Impissa defendeu o uso massivo de tecnologias móveis para aproximar os serviços do cidadão, reconhecendo que a fragmentação dos sistemas informáticos do Estado é um obstáculo a superar.",
+    "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique prepara lei de protecção de dados até Junho de 2026",
+    "desc": "O Governo está a preparar a lei de protecção de dados para acabar com a 'sensação de impunidade' em crimes cibernéticos. Os crimes cibernéticos cresceram 16% no último ano.",
+    "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Moçambique na Cimeira Mundial de Governos no Dubai",
+    "desc": "O ministro Inocêncio Impissa participou na Cimeira Mundial de Governos no Dubai, defendendo a utilização da digitalização, IA e literacia digital para modernizar a governação e a soberania de dados.",
+    "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Pelo menos dois paramilitares mortos em ataque em Macomia",
+    "desc": "Ataque de insurgentes na aldeia V Congresso, em Macomia, matou dois membros da Força Local que tentavam socorrer as Forças de Defesa e Segurança no terreno.",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Segurança"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Moçambique: Autoridades desconhecem efeitos da greve na saúde",
+    "desc": "Governo diz não ter 'noção' se a greve dos profissionais de saúde está a decorrer e rejeita alegação da APSUSM de mais de 700 mortes por falta de assistência.",
+    "img": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Saúde"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Pelo menos 10 detidos por desvio de donativos das cheias",
+    "desc": "Funcionários públicos, incluindo uma administradora distrital, foram detidos acusados de desviar alimentos, roupas e colchões destinados às vítimas das cheias em Xai-Xai e Chibuto.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Corrupção"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Governo admite falta de medicamentos e desvio de insumos",
+    "desc": "Ministério da Saúde reconhece 'faltas pontuais' de medicamentos devido a vandalização, cortes de financiamento e desvio por funcionários. Garante, no entanto, que o Sistema Nacional de Saúde não colapsou.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Saúde"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "ALERTA: Chuvas Intensas em Nampula",
+    "desc": "O INGD emitiu um aviso de nível amarelo para a província de Nampula. Recomenda-se precaução máxima nas zonas ribeirinhas e evitar travessias em áreas inundadas durante as próximas 24 horas.",
+    "img": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Sociedade"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Chapo e Banco Mundial passam em revista nova parceria de 10 mil milhões de dólares",
+    "desc": "O Presidente da República, Daniel Chapo, recebeu o director executivo do Banco Mundial, Zarau Kibwe. O encontro centrou-se no novo Quadro de Parceria 2026-2031, que prevê um apoio de 10 mil milhões de dólares para Moçambique.",
+    "img": "https://i.postimg.cc/xjh0hqR1/Screenshot-20260227-160501-Google.jpg",
+    "tipo": "noticia",
+    "categoria": "Política"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "EDUCAÇÃO COMO BASE DA INDEPENDÊNCIA ECONÓMICA MOÇAMBICANA",
+    "desc": "Na cerimónia central de abertura do Ano Lectivo de 2026, reafirmámos que a educação é a base da nossa Independência Económica. Defendemos uma escola orientada para formar cidadãos capazes de criar emprego e inovar.",
+    "img": "https://image2url.com/r2/default/images/1772265141761-0cf37cc6-b07b-4665-ba02-663a64f25bd6.jpg",
+    "tipo": "noticia",
+    "categoria": "Economia"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Como a IA está a transformar a educação em África",
+    "desc": "Especialistas reunidos no Gana debatem o potencial da inteligência artificial para revolucionar a aprendizagem no continente. Projetos como o Chorkor Digital Lab ensinam competências digitais a jovens, mas há alertas para riscos de exclusão digital.",
+    "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Como a inteligência artificial impacta o jornalismo?",
+    "desc": "Evento da Academia DW em Berlim reuniu especialistas globais para debater os desafios da IA no jornalismo. Temas incluíram desinformação, deepfakes, negociação com big techs e a necessidade de regulamentação.",
+    "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Média"
+  },
+  {
+    "data": "28/02/2026",
+    "titulo": "Europa troca direitos humanos por minerais na cimeira com África",
+    "desc": "ONG angolanas acusam a União Europeia de ter priorizado acesso a recursos naturais em detrimento de direitos humanos e democracia durante a 7.ª Cimeira UA-UE em Luanda.",
+    "img": "https://images.unsplash.com/photo-1574889385113-8e1c9bb48017?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Política"
+  },
+  {
+    "data": "27/02/2026",
+    "titulo": "VÍTIMAS DAS CHEIAS: 'Prefiro ficar onde estou em vez do centro de acolhimento'",
+    "desc": "Em Xai-Xai, a maioria dos 15 mil desalojados optou por ficar com familiares. Relatos apontam para condições precárias nos centros, incluindo apenas uma refeição por dia.",
+    "img": "https://images.unsplash.com/photo-1547683905-f686c993aae5?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Sociedade"
+  },
+  {
+    "data": "27/02/2026",
+    "titulo": "PARA ONDE VÃO OS FUNDOS DA RESILIÊNCIA CLIMÁTICA?",
+    "desc": "Moçambique recebeu mais de mil milhões de dólares para adaptação climática entre 2012 e 2024. Especialistas apontam falhas na monitoria, fragmentação institucional e risco de corrupção na aplicação dos fundos.",
+    "img": "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Ambiente"
+  },
+  {
+    "data": "27/02/2026",
+    "titulo": "FERROVIA NORTE-SUL: PROJECTO ANTIGO COM VIABILIDADE INCERTA",
+    "desc": "Especialistas questionam a viabilidade económica da ligação ferroviária entre o norte e sul de Moçambique. O projecto não tem financiamento garantido e não consta do Plano Quinquenal do Governo.",
+    "img": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Infraestrutura"
+  },
+  {
+    "data": "26/02/2026",
+    "titulo": "AS DETENÇÕES NA LAM PROVAM LUTA CONTRA A CORRUPÇÃO?",
+    "desc": "Analista considera que a LAM está falida e que Daniel Chapo é obrigado a defender-se da imagem frágil da empresa. Detenções confirmadas por esquemas de corrupção na LAM.",
+    "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Política"
+  },
+  {
+    "data": "26/02/2026",
+    "titulo": "ACESSO À TERRA: JOVENS DENUNCIAM PARTIDARIZAÇÃO",
+    "desc": "Parlamento Juvenil quer anular requisitos de acesso à terra, que considera discriminatórios e partidarizados.",
+    "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Política"
+  },
+  {
+    "data": "26/02/2026",
+    "titulo": "VIOLÊNCIA DIFICULTA COMBATE À CÓLERA EM CABO DELGADO",
+    "desc": "Ataques a autoridades em Cabo Delgado dificultam o combate à cólera, com unidades vandalizadas em Mecufi e Montepuez.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Saúde"
+  },
+  {
+    "data": "26/02/2026",
+    "titulo": "FUNCIONÁRIOS DETIDOS EM XAI-XAI POR DESVIO DE DONATIVOS",
+    "desc": "Três servidores públicos detidos em Gaza por alegado roubo de bens para vítimas das cheias.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Corrupção"
+  },
+  {
+    "data": "25/02/2026",
+    "titulo": "LEIS DA COMUNICAÇÃO SOCIAL: MISA ESPERA ACATO DE ACORDOS",
+    "desc": "Portas do Parlamento reabrem com propostas de lei da comunicação social e de radiodifusão na agenda.",
+    "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Direito"
+  },
+  {
+    "data": "25/02/2026",
+    "titulo": "NIASSA: MEGA-FÁBRICA CRIA EMPREGO, MAS SUSCITA CRÍTICAS",
+    "desc": "No distrito de Nipepe, empresa mineira construiu casas para famílias reassentadas.",
+    "img": "https://images.unsplash.com/photo-1565049786478-1de31b26a658?q=80&w=600",
+    "tipo": "noticia",
+    "categoria": "Economia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: 15 Motoristas - Conselho Municipal de Nampula",
+    "desc": "A Empresa Municipal de Transportes Públicos de Nampula (EMTPN) abriu concurso público para contratação de 15 motoristas. Requisitos: idade entre 18 e 45 anos, carta de condução de serviços públicos, habilitações mínimas da 10ª classe, atestado médico. Os interessados devem entregar a documentação na Secretaria Geral do Conselho Municipal de Nampula, durante o horário normal de expediente. Prazo de 15 dias a contar de 26 de Fevereiro de 2026.",
+    "img": "https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Transportes",
+    "link_vaga": "https://sovagas.co.mz/vaga/vagas-para-15-motoristas/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: 12 Inquiridores - World Vision Moçambique",
+    "desc": "A World Vision Moçambique está a recrutar 12 inquiridores para recolha de dados qualitativos no distrito de Monapo, província de Nampula. Requisitos: residência em Monapo (Netia ou Itoculo), 12ª classe concluída (nível superior é vantagem), fluência em português e emacua, experiência com smartphones. As candidaturas devem ser entregues em envelope selado no escritório da World Vision em Monapo. Data limite: 16 de Fevereiro de 2026. Processo gratuito.",
+    "img": "https://images.unsplash.com/photo-1573497620053-e3a0e9f0a54a?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Pesquisa",
+    "link_vaga": "https://www.linkedin.com/posts/world-vision-mo%C3%A7ambique_oportunidade-12-vagas-para-inquiridores-activity-7426629774174732289-JvGn"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Motorista - World Food Programme (WFP)",
+    "desc": "O Programa Alimentar Mundial (WFP) procura motorista para o escritório de Nampula. Requisitos: 12ª classe, carta de condução válida, mínimo 2 anos de experiência como motorista (preferência em organizações internacionais), fluência em português e línguas locais (macua), conhecimentos básicos de mecânica e primeiros socorros. Contrato de Serviço SC2 com duração de 6 meses. Exclusivo para cidadãos moçambicanos. Candidaturas online.",
+    "img": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Transportes",
+    "link_vaga": "https://oemprego.co.mz/job/motorista-nampula-world-food-programme/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Chefe de Projeto Energia e Processos - Nitidæ",
+    "desc": "A Nitidæ, organização francesa de desenvolvimento sustentável, recruta Chefe de Projeto para Nampula. O projeto visa a valorização energética de cascas de caju na província. Requisitos: engenharia energética/térmica/mecânica ou similar, mínimo 3 anos de experiência em cargo técnico, motivação para trabalhar com valorização energética de resíduos agroindustriais, português e inglês fluentes. Contrato CDD de 12 meses renovável. Enviar CV e carta de motivação para rh.mocambique@nitidae.org com referência 'Chefe de projeto Energia e processos'. Prazo: 10 de Janeiro de 2026.",
+    "img": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Engenharia",
+    "link_vaga": "mailto:rh.mocambique@nitidae.org?subject=Chefe%20de%20projeto%20Energia%20e%20processos"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Oficial de Finanças - Save the Children",
+    "desc": "A Save the Children Internacional recruta Oficial de Finanças para o programa EAC em Nampula. Responsabilidades: contabilidade, gestão de fluxo de caixa, reconciliação de livros contabilísticos, ligação entre projeto e operações. Requisitos: licenciatura em Finanças/Contabilidade, mínimo 5 anos de experiência em ONG internacionais (3 anos em gestão financeira), experiência com doadores como NORAD e ONU, disponibilidade para viajar. Candidatura online até 13 de Janeiro de 2026.",
+    "img": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Finanças",
+    "link_vaga": "https://hcri.fa.em2.oraclecloud.com:443/hcmUI/CandidateExperience/en/job/14944"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Oficial de Género e Proteção (2 vagas) - Associação Protege",
+    "desc": "A Associação Protege e AENA recrutam 2 Oficiais de Género e Proteção para Angoche e Nacala Porto, Nampula. Funções: assistência em aspectos de género e proteção, gestão de help desks e linha verde, sensibilização de beneficiários. Requisitos: licenciatura em Ciências Sociais, Desenvolvimento Rural, Sociologia ou Psicologia, mínimo 3 anos de experiência em projetos de desenvolvimento ou humanitários, fluência em português (inglês e línguas locais são vantagem). Candidatura online até 10 de Janeiro de 2026.",
+    "img": "https://images.unsplash.com/photo-1573497620053-e3a0e9f0a54a?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Social",
+    "link_vaga": "https://protege.org.mz/index.php/2026/01/06/vagas-para-oficial-de-genero-e-proteccao-2-nampula/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Técnico de Campo IT (19 vagas) - Associação Protege",
+    "desc": "A Associação Protege recruta 19 Técnicos de Campo IT para Nampula (Larde, Liupo, Memba, Moma, Angoche, Mogincual, Erati, Mogovolas, Mussoril, Monapo, Nacala a Velha, Nacala Porto) e Cabo Delgado (Macomia, Quissanga, Chiure, Mecufi, Meluco, Metuge). Funções: monitoria de desempenho de aplicações, manutenção de dispositivos, garantia de consistência de dados. Requisitos: licenciatura em Engenharia Informática ou TI, mínimo 2 anos de experiência, domínio de aplicações TICs, fluência em português.",
+    "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Tecnologia",
+    "link_vaga": "https://oemprego.co.mz/job/vagas-para-tecnico-de-campo-it/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Oficial de Parcerias - Save the Children",
+    "desc": "A Save the Children recruta Oficial de Parcerias para a província de Gaza. Responsável pela gestão de parcerias locais e governamentais. Prazo: 06 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Gestão",
+    "link_vaga": "https://www.savethechildren.net/careers"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Supervisor de Saúde e Nutrição - Action Contre La Faim",
+    "desc": "A Action Contre La Faim recruta Supervisor de Saúde e Nutrição para Xai-Xai, província de Gaza. Coordenação de acções de saúde e nutrição. Prazo: 06 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Saúde",
+    "link_vaga": "https://emprego.mmo.co.mz/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Food Security & Livelihood Programme Manager - Action Contre La Faim",
+    "desc": "A Action Contre La Faim recruta Gestor de Programa de Segurança Alimentar e Meios de Subsistência para Macomia, Cabo Delgado. Prazo: 15 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Gestão",
+    "link_vaga": "https://emprego.mmo.co.mz/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Encarregado Geral de Instalações Especiais - Mota-Engil",
+    "desc": "A Mota-Engil recruta Encarregado Geral de Instalações Especiais para Palma, Cabo Delgado. Gestão de instalações especiais. Prazo: 05 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Engenharia",
+    "link_vaga": "https://careers.mota-engil.com/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Engenheiro Eletrotécnico de Instalações Especiais - Mota-Engil",
+    "desc": "A Mota-Engil recruta Engenheiro Eletrotécnico de Instalações Especiais para Palma, Cabo Delgado. Prazo: 05 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Engenharia",
+    "link_vaga": "https://careers.mota-engil.com/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Senior Manager Site Services - Sasol",
+    "desc": "A Sasol está a recrutar um gestor sénior para Inhambane (Temane) para liderar serviços de suporte às operações. Requer licenciatura e 12+ anos de experiência. Candidaturas até 12 de Março.",
+    "img": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Gestão",
+    "link_vaga": "https://jobs.sasol.com/job/Inhambane-Senior-Manager-Site-Services/1368597633/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Técnico Sénior de Saúde e Segurança Ocupacional - SDO Moçambique",
+    "desc": "SDO Moçambique procura profissional em Maputo para liderar sistemas de gestão ISO e garantir conformidade em SST e ambiente. Exige licenciatura, 8 anos de experiência e inglês funcional.",
+    "img": "https://images.unsplash.com/photo-1573497620053-e3a0e9f0a54a?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Saúde e Segurança",
+    "link_vaga": "https://apply.workable.com/j/FCE985464A/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Energy Adviser - GIZ",
+    "desc": "A GIZ, através do programa EnDev, recruta um assessor de energia em Maputo para o setor de cozinha limpa. Exige formação superior, 5 anos de experiência e inglês fluente. Candidatura (CV + carta) num único ficheiro até 13 de Março.",
+    "img": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Energia",
+    "link_vaga": "https://apply.workable.com/j/53710C0E1B/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Diretor Comercial - KFC International",
+    "desc": "KFC International, Lda recruta Diretor Comercial em Maputo. Exige licenciatura, 7 anos de experiência e fluência em inglês e hindi. Envie CV até 01 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Comercial",
+    "link_vaga": "mailto:kakumanuv@kecrpg.com?subject=Candidatura_Diretor_Comercial"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Diretor Geral - KFC International",
+    "desc": "KFC International, Lda recruta Diretor Geral em Maputo. Exige licenciatura/mestrado, 7 anos em direção e fluência em inglês e hindi. Envie CV até 01 de Março de 2026.",
+    "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Gestão",
+    "link_vaga": "mailto:kakumanuv@kecrpg.com?subject=Candidatura_Diretor_Geral"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Engenheiro de Minas - Mota-Engil",
+    "desc": "Mota-Engil recruta Engenheiro de Minas para a Direção de Produção em Maputo. Exige formação superior, 5 anos de experiência em mina de ouro a céu aberto e domínio de software como Vulcan, Surpac e AutoCAD.",
+    "img": "https://images.unsplash.com/photo-1560193788-91e5b52ab4cf?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Engenharia",
+    "link_vaga": "https://careers.mota-engil.com/job/Maputo-Engenheiroa-de-Minas-Dire%C3%A7%C3%A3o-de-Produ%C3%A7%C3%A3o-%28PT%29-T/1367903433/"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Técnico de Informática e Redes",
+    "desc": "Empresa sediada na Cidade de Nampula procura técnico com experiência em configuração de redes e manutenção de hardware. Envie o seu CV através do nosso portal oficial.",
+    "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Tecnologia",
+    "link_vaga": "https://exemplo-portal-vagas.co.mz/candidatura"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "VAGA: Gestor de Recursos Humanos",
+    "desc": "Oportunidade para profissionais com experiência em gestão de equipas. Local: Nampula. Clique no botão abaixo para submeter o seu currículo.",
+    "img": "https://images.unsplash.com/photo-1521791136064-7986c2959210?q=80&w=600",
+    "tipo": "vaga",
+    "categoria": "Recursos Humanos",
+    "link_vaga": "mailto:recrutamento@empresa.co.mz?subject=Candidatura_RH"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Óculos Inteligentes para Cegos - Invenção Moçambicana",
+    "desc": "João Rego, engenheiro moçambicano de 24 anos, desenvolveu um protótipo de óculos com 10 sensores que detectam obstáculos até 8 metros de distância, cobrindo um ângulo de 120 graus. O dispositivo usa vibrações para alertar o utilizador e já passou por três versões, com lançamento da versão final previsto para 2026. Tecnologia nacional acessível para os cerca de 700 mil moçambicanos com limitações visuais graves. Disponível para encomenda em Nampula.",
+    "img": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Tecnologia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Starlink Mini - Versão Portátil Chega a Moçambique",
+    "desc": "A versão mini do kit Starlink, do tamanho de um laptop, já está disponível em Nampula. Ideal para nómadas digitais, trabalho remoto em zonas rurais, e profissionais que precisam de internet de alta velocidade em movimento. Configuração simplificada e consumo de energia reduzido. Entrega imediata em Nampula e arredores.",
+    "img": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Starlink"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: iPhone 16 Pro Max - Pré-venda em Maputo",
+    "desc": "O novo iPhone com chip A18 Pro, funcionalidades avançadas de IA generativa, e câmara de 48MP com zoom óptico de 5x. Bateria com maior autonomia e novo botão de controlo de câmara. Pré-venda já disponível em Maputo com entregas a partir de 15 de Março. Reserve já o seu.",
+    "img": "https://images.unsplash.com/photo-1707150919131-03099956423c?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Smartphones"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Xiaomi 15 Ultra - Câmara Leica de 200MP",
+    "desc": "Lançamento do Xiaomi 15 Ultra com parceria Leica e zoom de 100x. Sistema de câmara quádrupla com sensor principal de 1 polegada e lente telefoto de 200MP. Ecrã AMOLED de 120Hz e processador Snapdragon 8 Elite. Disponível nas lojas de Nampula e Maputo com garantia local.",
+    "img": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Smartphones"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Power Station Portátil 2000W",
+    "desc": "Estação de energia portátil com capacidade de 2000W e bateria de fosfato de ferro-lítio (LiFePO4) com mais de 3500 ciclos de vida. Inclui painel solar dobrável de 400W. Autonomia para 24 horas de refrigeração, ideal para zonas com falhas de energia, pequenas empresas, e eventos ao ar livre. Stock disponível em Nampula.",
+    "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Energia"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Router 5G com Starlink - Conexão Híbrida",
+    "desc": "Novo router que combina conexão 5G e Starlink para redundância automática. Em caso de falha de uma rede, o sistema muda instantaneamente para a outra sem interrupção. Gestão remota via app e priorização de tráfego para aplicações críticas. Perfeito para empresas em Nampula que não podem ficar offline, escritórios remotos e instituições financeiras.",
+    "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Internet"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Drone Agrícola DJI Agras T50",
+    "desc": "Drone para pulverização agrícola com capacidade de 50 litros, radar de matriz phased para detecção de obstáculos e sistema de aspersão duplo. Chegou a Moçambique para revolucionar a agricultura no norte. Demonstrações gratuitas em Nampula mediante agendamento. Financiamento disponível para associações de agricultores.",
+    "img": "https://images.unsplash.com/photo-1508614589041-895b88991e69?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Drones"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Laptop Solar - Autonomia de 12 horas",
+    "desc": "Laptop com painel solar integrado na tampa que carrega diretamente com o sol. Processador eficiente, ecrã de baixo consumo, e bateria de longa duração. Ideal para técnicos de campo, estudantes em zonas sem eletricidade, e profissionais que trabalham em áreas remotas. Inclui modem 4G integrado. Disponível em Nampula.",
+    "img": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Computadores"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Sistema de Alarme com IA e Reconhecimento Facial",
+    "desc": "Sistema de vigilância com câmaras inteligentes que utilizam IA para reconhecimento facial, detecção de movimento diferenciada (pessoas vs animais) e alertas instantâneos no smartphone. Armazenamento em nuvem local com criptografia. Instalação em Nampula e arredores com garantia de 2 anos. Consulte-nos para avaliação gratuita.",
+    "img": "https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Segurança"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Tablet Infantil Resistente à Água",
+    "desc": "Tablet educativo especialmente desenvolvido para crianças, com capa robusta resistente a quedas e água. Pré-carregado com conteúdos educativos em português alinhados com o currículo nacional, incluindo jogos interactivos, livros digitais e aplicações de aprendizagem. Controlo parental avançado e garantia de 2 anos. Disponível em Nampula.",
+    "img": "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Tablets"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Power Bank Solar 50000mAh",
+    "desc": "Power bank de alta capacidade com painel solar de alta eficiência. Carrega smartphones até 15 vezes, tablets até 5 vezes. Duas saídas USB-C de carga rápida e uma saída USB-A. Indicador LED de nível de carga e lanterna de emergência incluída. Ideal para emergências, acampamentos, e viagens longas. Stock em Nampula.",
+    "img": "https://images.unsplash.com/photo-1609592424789-743c1f3ea4b0?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Acessórios"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Auscultadores com Tradução em Tempo Real",
+    "desc": "Auscultadores com IA integrada que traduzem conversas em tempo real para mais de 50 idiomas, incluindo português, inglês, francês, e línguas locais como macua e changana. Cancelamento de ruído activo, bateria com 30 horas de autonomia, e conectividade Bluetooth 5.3. Perfeitos para negócios, turismo, e trabalho com comunidades internacionais. Chegaram a Nampula.",
+    "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Áudio"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Kit Starlink Standard (Ger. 3)",
+    "desc": "Internet via satélite de alta velocidade já disponível para entrega em Nampula. Kit selado de fábrica, ideal para empresas, zonas rurais, e locais com pouca cobertura de fibra óptica. Inclui router de última geração com maior alcance e resistência às condições climáticas. Instalação simples e suporte técnico local.",
+    "img": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Starlink"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "Actual: Samsung Galaxy S24 Ultra 5G",
+    "desc": "O topo de gama da Samsung com as novas funções de Inteligência Artificial Galaxy AI. Tradução em tempo real, edição de fotos generativa, e organização inteligente. Ecrã de titânio de 6.8 polegadas, câmara de 200MP com zoom espacial de 100x, e S Pen integrada. Preço de Mercado Negro imbatível com garantia local.",
+    "img": "https://images.unsplash.com/photo-1707150919131-03099956423c?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Smartphones"
+  },
+  {
+    "data": "01/03/2026",
+    "titulo": "TECNOLOGIA: Painéis Solares Inteligentes 550W",
+    "desc": "Energia renovável para a sua casa ou empresa em Nampula. Painéis solares de alta eficiência com microinversores integrados e monitorização via app. Sistema de limpeza automática e garantia de 25 anos. Reduza a fatura da EDM em até 90% com financiamento disponível. Temos stock em Nampula com instalação incluída.",
+    "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=600",
+    "tipo": "bolada",
+    "categoria": "Energia"
   }
 ]
