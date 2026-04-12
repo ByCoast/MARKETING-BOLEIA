@@ -9,7 +9,7 @@ from browser import AntiBotBrowser
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-IGNORAR = ['menu', 'página', 'ir para', 'clique', 'buscar', 'cookies', 'aceitar']
+IGNORAR = ['menu', 'página', 'ir para', 'clique', 'buscar', 'cookies', 'aceitar', 'facebook', 'twitter', 'whatsapp', 'compartilhar']
 
 class NewsScraper:
     def __init__(self, config):
@@ -27,34 +27,50 @@ class NewsScraper:
             return False
         return True
     
-    def _get_fonte_from_url(self, url, name):
-        """Extrai o nome da fonte baseado na URL"""
-        if 'dw.com' in url:
-            return 'DW'
-        elif 'voaportugues' in url:
-            return 'VOA'
-        elif 'bbc.com' in url:
-            return 'BBC'
-        elif 'aljazeera' in url:
-            return 'Al Jazeera'
-        elif 'rfi.fr' in url:
-            return 'RFI'
-        elif 'opais.co.mz' in url:
-            return 'O País'
-        elif 'mznews.co.mz' in url:
-            return 'MZNews'
-        elif 'cartamz.com' in url:
-            return 'Carta'
-        elif 'verdade.co.mz' in url:
-            return 'Verdade'
-        elif 'mediafax.co.mz' in url:
-            return 'MediaFax'
-        elif 'njobs.co.mz' in url:
-            return 'nJOBS'
-        elif 'emprego.co.mz' in url:
-            return 'Emprego.co.mz'
-        else:
-            return name
+    def _limpar_desc(self, text):
+        """Limpa a descrição removendo lixo comum"""
+        if not text:
+            return ""
+        # Remover "PARTILHAR", "Compartilhar", etc
+        text = re.sub(r'(PARTILHAR|Compartilhar|Share|Facebook|Twitter|WhatsApp)', '', text, flags=re.IGNORECASE)
+        # Remover múltiplos espaços
+        text = re.sub(r'\s+', ' ', text)
+        # Remover "▼" e caracteres especiais
+        text = re.sub(r'[▼▶•★☆]', '', text)
+        return text.strip()[:400]
+    
+    def _extrair_imagem(self, container, soup):
+        """Tenta extrair imagem do artigo"""
+        # Procura por imagem dentro do container
+        img = container.find('img')
+        if img and img.get('src'):
+            src = img.get('src')
+            if src.startswith('http'):
+                return src
+            elif src.startswith('/'):
+                return f"https://www.dw.com{src}"
+        
+        # Se não encontrar, procura imagem na página
+        img = soup.find('img', class_=re.compile(r'(featured|main|article|post)'))
+        if img and img.get('src'):
+            src = img.get('src')
+            if src.startswith('http'):
+                return src
+        
+        # Imagem padrão por categoria (fallback)
+        return ""
+    
+    def _get_fonte(self, url, name):
+        if 'dw.com' in url: return 'DW'
+        elif 'voaportugues' in url: return 'VOA'
+        elif 'bbc.com' in url: return 'BBC'
+        elif 'aljazeera' in url: return 'Al Jazeera'
+        elif 'opais.co.mz' in url: return 'O País'
+        elif 'mznews.co.mz' in url: return 'MZNews'
+        elif 'cartamz.com' in url: return 'Carta'
+        elif 'verdade.co.mz' in url: return 'Verdade'
+        elif 'njobs.co.mz' in url: return 'nJOBS'
+        else: return name
     
     def run(self):
         self.browser = AntiBotBrowser()
@@ -74,30 +90,56 @@ class NewsScraper:
                         if html:
                             soup = BeautifulSoup(html, 'html.parser')
                             noticias = []
-                            for tag in soup.find_all(['h2', 'h3', 'h4']):
-                                title = tag.get_text(strip=True)
-                                if self._valido(title):
-                                    desc = ""
-                                    p = tag.find_next('p')
-                                    if p:
-                                        desc = p.get_text(strip=True)[:300]
-                                    noticias.append({
-                                        "data": datetime.now().strftime("%d/%m/%Y"),
-                                        "titulo": title,
-                                        "desc": desc or "Clique para ler",
-                                        "img": "",
-                                        "video": "",
-                                        "tipo": "noticia",
-                                        "categoria": category.capitalize(),
-                                        "fonte": self._get_fonte_from_url(url, name)
-                                    })
+                            
+                            # Procura por artigos
+                            containers = soup.find_all(['article', 'div', 'li'], limit=12)
+                            
+                            for container in containers:
+                                # Título
+                                title_tag = container.find(['h2', 'h3', 'h4', 'h1'])
+                                title = title_tag.get_text(strip=True) if title_tag else ""
+                                
+                                if not self._valido(title):
+                                    continue
+                                
+                                # Descrição - tenta vários lugares
+                                desc = ""
+                                desc_tag = container.find('p')
+                                if desc_tag:
+                                    desc = desc_tag.get_text(strip=True)
+                                else:
+                                    # Tenta encontrar descrição em divs comuns
+                                    desc_div = container.find(['div'], class_=re.compile(r'(desc|excerpt|summary|content)'))
+                                    if desc_div:
+                                        desc = desc_div.get_text(strip=True)
+                                
+                                desc = self._limpar_desc(desc)
+                                if not desc:
+                                    desc = "Clique para ler a notícia completa"
+                                
+                                # Imagem
+                                img = self._extrair_imagem(container, soup)
+                                
+                                noticias.append({
+                                    "data": datetime.now().strftime("%d/%m/%Y"),
+                                    "titulo": title,
+                                    "desc": desc,
+                                    "img": img,
+                                    "video": "",
+                                    "tipo": "noticia",
+                                    "categoria": category.capitalize(),
+                                    "fonte": self._get_fonte(url, name)
+                                })
+                            
+                            # Remover duplicados
                             unicos = []
                             vistos = set()
-                            for n in noticias[:8]:
+                            for n in noticias[:10]:
                                 if n['titulo'] not in vistos:
                                     vistos.add(n['titulo'])
                                     unicos.append(n)
-                            logger.info(f"  ✅ {name}: {len(unicos)}")
+                            
+                            logger.info(f"  ✅ {name}: {len(unicos)} notícias")
                             self.all_news.extend(unicos)
                         time.sleep(2)
                     except Exception as e:

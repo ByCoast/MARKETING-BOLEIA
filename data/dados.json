@@ -1,6 +1,26 @@
 [
   {
     "data": "12/04/2026",
+    "titulo": "BBC News,Brasil-Início",
+    "desc": "Péter Magyar representa a maior ameaça ao regime de Viktor Orbán na Hungria, desde sua primeira vitória em quatro eleições consecutivas, em 2010.",
+    "img": "https://a1.api.bbc.co.uk/hit.xiti?s=598342&s2=33&p=portuguese.page&x1=[urn%3Abbc%3Atipo%3Atopic%3Ac0rp0kp57p1t]&x2=[responsive]&x3=[news-portuguese]&x4=[pt-BR]&x7=[index-home]&x8=[simorgh-nojs]&x9=[Not%C3%ADcias%2C%2520v%C3%ADdeos%2C%2520an%C3%A1lise%2520e%2520contexto%2520em%2520portugu%C3%AAs%2520-%2520BBC%2520News%2520Brasil]",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Internacional",
+    "fonte": "BBC"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "Categoria:Desporto",
+    "desc": "O braço de ferro pelo título do Campeonato Africano das Nações (CAN) 2025 ganhou novos episódios de alta tensão esta semana. O Presidente da CAF, Patrice Motsepe, desembarcou em Dakar numa missão de emergência para conter a fúria das autoridades senegalesas, após a polémica decisão de retirar o troféu aos “Leões da Teranga” para entregá-lo...",
+    "img": "https://mznews.co.mz/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT.png",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Desporto",
+    "fonte": "MZNews"
+  },
+  {
+    "data": "12/04/2026",
     "titulo": "Candidatos a Bastonário da Ordem dos Advogados querem “manter” independência da ordem",
     "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
     "img": "",
