@@ -1,6 +1,26 @@
 [
   {
     "data": "12/04/2026",
+    "titulo": "Candidatos a Bastonário da Ordem dos Advogados querem “manter” independência da ordem",
+    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
+    "img": "",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Nacional",
+    "fonte": "O País"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "O castelo de 250 quartos de família bilionária que conta como foi a Era Dourada dos EUA",
+    "desc": "Inspirada nos castelos franceses, a mansão é um testemunho de uma era de opulência gerada pelo crescimento repentino da riqueza de algumas poucas famílias americanas.",
+    "img": "",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Internacional",
+    "fonte": "BBC"
+  },
+  {
+    "data": "12/04/2026",
     "titulo": "Radar DW: Matar para calar Vigário Luís Balanta",
     "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
     "img": "",
