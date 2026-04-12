@@ -1,0 +1,130 @@
+2026-04-12 10:23:26,031 - INFO - ========================================
+2026-04-12 10:23:26,032 - INFO - Robô de Notícias - Iniciado
+2026-04-12 10:23:26,032 - INFO - ========================================
+2026-04-12 10:23:27,083 - INFO - Iniciando cliente HTTP...
+2026-04-12 10:23:27,083 - INFO - Cliente HTTP iniciado!
+2026-04-12 10:23:27,084 - INFO - 
+📂 Categoria: nacional
+2026-04-12 10:23:27,084 - INFO - Acedendo: https://www.dw.com/pt-002/not%C3%ADcias/s-13918
+2026-04-12 10:23:30,108 - INFO -   ✅ DW - Moçambique: 0 notícias
+2026-04-12 10:23:33,848 - INFO - Acedendo: https://opais.co.mz
+2026-04-12 10:23:40,323 - INFO -   ✅ O País: 8 notícias
+2026-04-12 10:23:43,669 - INFO - Acedendo: https://mznews.co.mz
+2026-04-12 10:23:50,553 - INFO -   ✅ MZNews: 8 notícias
+2026-04-12 10:23:53,394 - INFO - Acedendo: https://cartamz.com
+2026-04-12 10:23:57,007 - INFO -   ✅ Carta de Moçambique: 6 notícias
+2026-04-12 10:24:00,028 - INFO - Acedendo: https://verdade.co.mz
+2026-04-12 10:24:03,414 - INFO -   ✅ Verdade: 7 notícias
+2026-04-12 10:24:06,028 - INFO - Acedendo: https://mediafax.co.mz
+2026-04-12 10:24:08,307 - INFO -   ✅ MediaFax: 0 notícias
+2026-04-12 10:24:12,097 - INFO - 
+📂 Categoria: internacional
+2026-04-12 10:24:12,098 - INFO - Acedendo: https://www.dw.com/pt-002/top-stories/s-13918
+2026-04-12 10:24:14,635 - INFO -   ✅ DW - Internacional: 0 notícias
+2026-04-12 10:24:18,140 - INFO - Acedendo: https://www.bbc.com/portuguese
+2026-04-12 10:24:20,769 - INFO -   ✅ BBC - Mundo: 8 notícias
+2026-04-12 10:24:22,785 - INFO - Acedendo: https://www.rfi.fr/pt/internacional
+2026-04-12 10:24:23,152 - ERROR - Erro ao aceder https://www.rfi.fr/pt/internacional: 403 Client Error: Forbidden for url: https://www.rfi.fr/pt/internacional
+2026-04-12 10:24:26,142 - INFO - Acedendo: https://www.aljazeera.com/where/mozambique/
+2026-04-12 10:24:29,153 - INFO -   ✅ Al Jazeera: 8 notícias
+2026-04-12 10:24:31,423 - INFO - 
+📂 Categoria: economia
+2026-04-12 10:24:31,424 - INFO - Acedendo: https://cartamz.com/category/economia
+2026-04-12 10:24:34,731 - INFO -   ✅ Carta - Economia: 8 notícias
+2026-04-12 10:24:38,089 - INFO - Acedendo: https://www.voaportugues.com/economia
+2026-04-12 10:24:38,947 - ERROR - Erro ao aceder https://www.voaportugues.com/economia: 404 Client Error: Not Found for url: https://www.voaportugues.com/economia
+2026-04-12 10:24:42,236 - INFO - 
+📂 Categoria: tecnologia
+2026-04-12 10:24:42,237 - INFO - Acedendo: https://techmoz.co.mz
+2026-04-12 10:24:42,411 - ERROR - Erro ao aceder https://techmoz.co.mz: HTTPSConnectionPool(host='techmoz.co.mz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='techmoz.co.mz', port=443): Failed to resolve 'techmoz.co.mz' ([Errno 7] No address associated with hostname)"))
+2026-04-12 10:24:45,157 - INFO - Acedendo: https://meutech.co.mz
+2026-04-12 10:24:45,222 - ERROR - Erro ao aceder https://meutech.co.mz: HTTPSConnectionPool(host='meutech.co.mz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='meutech.co.mz', port=443): Failed to resolve 'meutech.co.mz' ([Errno 7] No address associated with hostname)"))
+2026-04-12 10:24:47,428 - INFO - 
+📂 Categoria: saude
+2026-04-12 10:24:47,428 - INFO - Acedendo: https://www.voaportugues.com/saude
+2026-04-12 10:24:47,850 - ERROR - Erro ao aceder https://www.voaportugues.com/saude: 404 Client Error: Not Found for url: https://www.voaportugues.com/saude
+2026-04-12 10:24:50,287 - INFO - 
+📂 Categoria: desporto
+2026-04-12 10:24:50,288 - INFO - Acedendo: https://mznews.co.mz/category/desporto
+2026-04-12 10:24:53,864 - INFO -   ✅ MZNews - Desporto: 8 notícias
+2026-04-12 10:24:57,574 - INFO - 
+📂 Categoria: cultura
+2026-04-12 10:24:57,575 - INFO - Acedendo: https://www.voaportugues.com/cultura
+2026-04-12 10:24:57,966 - ERROR - Erro ao aceder https://www.voaportugues.com/cultura: 404 Client Error: Not Found for url: https://www.voaportugues.com/cultura
+2026-04-12 10:25:00,008 - INFO - 
+📂 Categoria: emprego
+2026-04-12 10:25:00,009 - INFO - Acedendo: https://njobs.co.mz
+2026-04-12 10:25:02,985 - INFO -   ✅ nJOBS - Vagas: 8 notícias
+2026-04-12 10:25:05,720 - INFO - Acedendo: https://www.emprego.co.mz
+2026-04-12 10:25:08,562 - INFO -   ✅ emprego.co.mz: 0 notícias
+2026-04-12 10:25:10,613 - INFO - Cliente HTTP fechado
+2026-04-12 10:25:10,614 - INFO - 
+📊 Total de novas notícias: 69
+2026-04-12 10:25:10,620 - INFO - Salvo: 69 artigos no total
+2026-04-12 10:25:10,620 - INFO - ✅ Adicionadas 69 notícias novas
+2026-04-12 10:25:10,620 - INFO - ========================================
+2026-04-12 10:34:39,291 - INFO - ========================================
+2026-04-12 10:34:39,292 - INFO - Robô de Notícias - Iniciado
+2026-04-12 10:34:39,292 - INFO - ========================================
+2026-04-12 10:34:40,482 - INFO - Iniciando cliente HTTP...
+2026-04-12 10:34:40,483 - INFO - Cliente HTTP iniciado!
+2026-04-12 10:34:40,483 - INFO - 
+📂 Categoria: nacional
+2026-04-12 10:34:40,483 - INFO - Acedendo: https://www.dw.com/pt-002/not%C3%ADcias/s-13918
+2026-04-12 10:34:43,336 - INFO -   ✅ DW - Moçambique: 0 notícias
+2026-04-12 10:34:45,819 - INFO - Acedendo: https://opais.co.mz
+2026-04-12 10:34:52,345 - INFO -   ✅ O País: 8 notícias
+2026-04-12 10:34:54,890 - INFO - Acedendo: https://mznews.co.mz
+2026-04-12 10:34:58,305 - INFO -   ✅ MZNews: 8 notícias
+2026-04-12 10:35:00,621 - INFO - Acedendo: https://cartamz.com
+2026-04-12 10:35:04,246 - INFO -   ✅ Carta de Moçambique: 6 notícias
+2026-04-12 10:35:07,630 - INFO - Acedendo: https://verdade.co.mz
+2026-04-12 10:35:14,935 - INFO -   ✅ Verdade: 7 notícias
+2026-04-12 10:35:18,899 - INFO - Acedendo: https://mediafax.co.mz
+2026-04-12 10:35:21,193 - INFO -   ✅ MediaFax: 0 notícias
+2026-04-12 10:35:24,358 - INFO - 
+📂 Categoria: internacional
+2026-04-12 10:35:24,359 - INFO - Acedendo: https://www.dw.com/pt-002/top-stories/s-13918
+2026-04-12 10:35:27,195 - INFO -   ✅ DW - Internacional: 0 notícias
+2026-04-12 10:35:29,615 - INFO - Acedendo: https://www.bbc.com/portuguese
+2026-04-12 10:35:32,395 - INFO -   ✅ BBC - Mundo: 8 notícias
+2026-04-12 10:35:35,956 - INFO - Acedendo: https://www.rfi.fr/pt/internacional
+2026-04-12 10:35:36,303 - ERROR - Erro ao aceder https://www.rfi.fr/pt/internacional: 403 Client Error: Forbidden for url: https://www.rfi.fr/pt/internacional
+2026-04-12 10:35:39,337 - INFO - Acedendo: https://www.aljazeera.com/where/mozambique/
+2026-04-12 10:35:42,101 - INFO -   ✅ Al Jazeera: 8 notícias
+2026-04-12 10:35:44,660 - INFO - 
+📂 Categoria: economia
+2026-04-12 10:35:44,660 - INFO - Acedendo: https://cartamz.com/category/economia
+2026-04-12 10:35:48,100 - INFO -   ✅ Carta - Economia: 8 notícias
+2026-04-12 10:35:52,058 - INFO - Acedendo: https://www.voaportugues.com/economia
+2026-04-12 10:35:52,775 - ERROR - Erro ao aceder https://www.voaportugues.com/economia: 404 Client Error: Not Found for url: https://www.voaportugues.com/economia
+2026-04-12 10:35:55,798 - INFO - 
+📂 Categoria: tecnologia
+2026-04-12 10:35:55,798 - INFO - Acedendo: https://techmoz.co.mz
+2026-04-12 10:35:55,902 - ERROR - Erro ao aceder https://techmoz.co.mz: HTTPSConnectionPool(host='techmoz.co.mz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='techmoz.co.mz', port=443): Failed to resolve 'techmoz.co.mz' ([Errno 7] No address associated with hostname)"))
+2026-04-12 10:35:58,547 - INFO - Acedendo: https://meutech.co.mz
+2026-04-12 10:35:58,611 - ERROR - Erro ao aceder https://meutech.co.mz: HTTPSConnectionPool(host='meutech.co.mz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='meutech.co.mz', port=443): Failed to resolve 'meutech.co.mz' ([Errno 7] No address associated with hostname)"))
+2026-04-12 10:36:01,912 - INFO - 
+📂 Categoria: saude
+2026-04-12 10:36:01,912 - INFO - Acedendo: https://www.voaportugues.com/saude
+2026-04-12 10:36:02,500 - ERROR - Erro ao aceder https://www.voaportugues.com/saude: 404 Client Error: Not Found for url: https://www.voaportugues.com/saude
+2026-04-12 10:36:04,876 - INFO - 
+📂 Categoria: desporto
+2026-04-12 10:36:04,877 - INFO - Acedendo: https://mznews.co.mz/category/desporto
+2026-04-12 10:36:08,353 - INFO -   ✅ MZNews - Desporto: 8 notícias
+2026-04-12 10:36:12,334 - INFO - 
+📂 Categoria: cultura
+2026-04-12 10:36:12,335 - INFO - Acedendo: https://www.voaportugues.com/cultura
+2026-04-12 10:36:12,767 - ERROR - Erro ao aceder https://www.voaportugues.com/cultura: 404 Client Error: Not Found for url: https://www.voaportugues.com/cultura
+2026-04-12 10:36:16,500 - INFO - 
+📂 Categoria: emprego
+2026-04-12 10:36:16,501 - INFO - Acedendo: https://njobs.co.mz
+2026-04-12 10:36:19,284 - INFO -   ✅ nJOBS - Vagas: 8 notícias
+2026-04-12 10:36:22,116 - INFO - Acedendo: https://www.emprego.co.mz
+2026-04-12 10:36:24,991 - INFO -   ✅ emprego.co.mz: 0 notícias
+2026-04-12 10:36:27,198 - INFO - Cliente HTTP fechado
+2026-04-12 10:36:27,198 - INFO - 
+📊 Total de novas notícias: 69
+2026-04-12 10:36:27,206 - INFO - Salvo: 69 artigos no total
+2026-04-12 10:36:27,206 - INFO - ✅ Adicionadas 0 notícias novas
+2026-04-12 10:36:27,207 - INFO - ========================================

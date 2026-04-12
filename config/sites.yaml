@@ -1,0 +1,68 @@
+global:
+  timeout: 30
+  retries: 3
+  max_articles_per_site: 8
+
+nacional:
+  - name: "DW - Moçambique"
+    url: "https://www.dw.com/pt-002/not%C3%ADcias/s-13918"
+
+  - name: "O País"
+    url: "https://opais.co.mz"
+
+  - name: "MZNews"
+    url: "https://mznews.co.mz"
+
+  - name: "Carta de Moçambique"
+    url: "https://cartamz.com"
+
+  - name: "Verdade"
+    url: "https://verdade.co.mz"
+
+  - name: "MediaFax"
+    url: "https://mediafax.co.mz"
+
+internacional:
+  - name: "DW - Internacional"
+    url: "https://www.dw.com/pt-002/top-stories/s-13918"
+
+  - name: "BBC - Mundo"
+    url: "https://www.bbc.com/portuguese"
+
+  - name: "RFI - Internacional"
+    url: "https://www.rfi.fr/pt/internacional"
+
+  - name: "Al Jazeera"
+    url: "https://www.aljazeera.com/where/mozambique/"
+
+economia:
+  - name: "Carta - Economia"
+    url: "https://cartamz.com/category/economia"
+
+  - name: "VOA - Economia"
+    url: "https://www.voaportugues.com/economia"
+
+tecnologia:
+  - name: "TechMoz"
+    url: "https://techmoz.co.mz"
+
+  - name: "Meu Tech"
+    url: "https://meutech.co.mz"
+
+saude:
+  - name: "VOA - Saúde"
+    url: "https://www.voaportugues.com/saude"
+
+desporto:
+  - name: "MZNews - Desporto"
+    url: "https://mznews.co.mz/category/desporto"
+
+cultura:
+  - name: "VOA - Cultura"
+    url: "https://www.voaportugues.com/cultura"
+
+emprego:
+  - name: "nJOBS - Vagas"
+    url: "https://njobs.co.mz"
+  - name: "emprego.co.mz"
+    url: "https://www.emprego.co.mz"
