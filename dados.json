@@ -1,902 +1,302 @@
 [
   {
     "data": "12/04/2026",
-    "titulo": "EUA e Irão terminam negociações sem acordo",
-    "desc": "O País – A verdade como notícia",
-    "img": "https://opais.co.mz/wp-content/uploads/2021/01/opais.jpg",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "BBC News,Brasil-Início",
-    "desc": "Péter Magyar representa a maior ameaça ao regime de Viktor Orbán na Hungria, desde sua primeira vitória em quatro eleições consecutivas, em 2010.",
-    "img": "https://a1.api.bbc.co.uk/hit.xiti?s=598342&s2=33&p=portuguese.page&x1=[urn%3Abbc%3Atipo%3Atopic%3Ac0rp0kp57p1t]&x2=[responsive]&x3=[news-portuguese]&x4=[pt-BR]&x7=[index-home]&x8=[simorgh-nojs]&x9=[Not%C3%ADcias%2C%2520v%C3%ADdeos%2C%2520an%C3%A1lise%2520e%2520contexto%2520em%2520portugu%C3%AAs%2520-%2520BBC%2520News%2520Brasil]",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "BBC"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Categoria:Desporto",
-    "desc": "O braço de ferro pelo título do Campeonato Africano das Nações (CAN) 2025 ganhou novos episódios de alta tensão esta semana. O Presidente da CAF, Patrice Motsepe, desembarcou em Dakar numa missão de emergência para conter a fúria das autoridades senegalesas, após a polémica decisão de retirar o troféu aos “Leões da Teranga” para entregá-lo...",
-    "img": "https://mznews.co.mz/wp-content/plugins/translatepress-multilingual/assets/images/flags/pt_PT.png",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Candidatos a Bastonário da Ordem dos Advogados querem “manter” independência da ordem",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "O castelo de 250 quartos de família bilionária que conta como foi a Era Dourada dos EUA",
-    "desc": "Inspirada nos castelos franceses, a mansão é um testemunho de uma era de opulência gerada pelo crescimento repentino da riqueza de algumas poucas famílias americanas.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "BBC"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Radar DW: Matar para calar Vigário Luís Balanta",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Firkidja di Pubis responsabiliza Governo por morte de líder",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Ativista Vigário Luís Balanta assassinado na Guiné-Bissau",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Nampula: Gastos milionários com funcionários fantasmas",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Populares de Macomia em fuga após novos ataques",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Análises e reportagens",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Concursos públicos da justiça em Angola são \"de fachada\"?",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Fuga de cérebros: Como manter os jovens em Moçambique",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Dívida do Estado com empreiteiros em Gaza supera 220 milhões",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Dom Cláudio apela à colaboração dos moçambicanos para construção de um futuro igualitário",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Misau quer digitalizar prestação de serviços para melhorar atendimento",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "PR destaca papel dos jornalistas na consolidação democrática",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Jornalistas exigem valorização do profissional de comunicação social",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "FADM esclarecem apreensão de armamento obsoleto na Beira",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Conselho Municipal de Quelimane ordena encerramento de serrações residenciais",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Irlanda assinalou, a 17 de Março, o Dia de São Patrício – Feriado Nacional",
-    "desc": "Os EUA aconselham os seus cidadãos a reconsiderar viagens à Nigéria devido a riscos de segurança. O alerta surge na sequencia do terrorismo, agitacao civil e sequestros.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "O País"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Governo enfrenta desafios críticos do funcionalismo público",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Caso INSS: Investigação sobre corrupção pode atingir altas esferas do Estado",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Crise diplomática leva Patrice Motsepe ao Senegal enquanto troféu segue “congelado” pelo TAS",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Como 70 mil toneladas de arroz de comer entrou no país disfarçado de semente para não pagar imposto",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Artemis II regressa à Terra com sucesso após missão histórica à Lua",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Aeroporto de Maputo eleva padrões de segurança com novo “carro vassoura”",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "FADM esclarecem polémica sobre viatura com armamento retida na Beira",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "OAM exorta advogados a manterem ética na Campanha Eleitoral de 2026",
-    "desc": "Clique para ler",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Daniel Chapo defende investimento no conhecimento para monetização dos recursos naturais",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Mineração ilegal: Daniel Chapo diz ter escolhido Manica pelo histórico de desmandos",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Caso INSS: serviços continuam a ser prestados com “rigor, transparência e responsabilidade”",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Raptos recuam e país testa nova fase de confiança",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Economia e Negócios",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Parlamento aprova Lei de Tabaco para reduzir mortes e prejuízos bilionários para a economia",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Abertas as inscrições para a 4ª edição do Prémio Literário Mia Couto",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Proibido fumar em Moçambique “em locais abertos ou fechados, públicos ou privados” …até no interior de residências",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Chapo aumenta salários e mordomias dos ex-Presidentes Chissano, Guebuza e Nyusi que custam aos moçambicanos pelo menos 15 milhões mensais",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Governo de Chapo mantém preços dos combustíveis, apesar da guerra no Golfo… porque estão indexados acima 100 dólares o barril desde 2022",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Enquanto chantageia Moçambique, Mozal obtém maior lucro de sempre e paga 0(zero) Meticais em impostos",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Não é verdade que o FMI recusou novo Programa Financeiro a Moçambique",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Chapo falha promessa de “reduzir o tamanho do governo” para “economia de 17 biliões de Meticais”, Despesa com salários do Estado aumentou em 2025",
-    "desc": "Economia",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Nacional",
-    "fonte": "Verdade"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Radar DW: Matar para calar Vigário Luís Balanta",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Firkidja di Pubis responsabiliza Governo por morte de líder",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Ativista Vigário Luís Balanta assassinado na Guiné-Bissau",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Nampula: Gastos milionários com funcionários fantasmas",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Populares de Macomia em fuga após novos ataques",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Análises e reportagens",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Concursos públicos da justiça em Angola são \"de fachada\"?",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Fuga de cérebros: Como manter os jovens em Moçambique",
-    "desc": "O Irão foi palco de uma revolução que derrubou a monarquia em 1979 e é hoje uma república islâmica.",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "DW"
-  },
-  {
-    "data": "12/04/2026",
     "titulo": "Quem é o ex-aliado de Orbán que pode tirar premiê da Hungria do poder após 16 anos",
-    "desc": "Péter Magyar representa a maior ameaça ao regime de Viktor Orbán na Hungria, desde sua primeira vitória em quatro eleições consecutivas, em 2010.",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "BBC"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "EUA e Irã não conseguem chegar a acordo após negociações históricas de paz no Paquistão, diz J.D. Vance",
-    "desc": "O vice‑presidente americano, J.D. Vance, que lidera a delegação do país, disse que Estados Unidos deixaram claras suas \"linhas vermelhas\", enquanto o Irã \"não concordou com nossos termos\". Já o Irã pediu que os EUA se abstenham de \"exigências excessivas e pedidos ilegais\"",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Conflito",
+    "fonte": "BBC News Brasil"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "O castelo de 250 quartos de família bilionária que conta como foi a Era Dourada dos EUA",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "BBC"
+    "fonte": "BBC News Brasil"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "'Chinamaxxing': moda de beber água quente de manhã realmente faz bem à saúde?",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Saúde",
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "Como guerra no Irã pode levar o mundo a uma nova corrida por armas nucleares",
-    "desc": "Para especialistas, países podem concluir que a melhor garantia contra uma eventual agressão é ter bomba atômica em seu arsenal como fator de dissuasão.  Pesquisas de opinião em países de diferentes regiões mostram crescente apoio ao desenvolvimento de capacidade nuclear doméstica",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "BBC"
+    "categoria": "Conflito",
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "A diplomacia de alto risco que levou o Paquistão a sediar negociações de paz entre EUA e Irã",
-    "desc": "Considerado o homem mais poderoso do Paquistão, Asim Munir, o 'marechal favorito' de Trump, pode ter dado o 'golpe diplomático' do século com negociações sobre minerais críticos e criptomoedas e com cooperação com a CIA.",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "BBC"
+    "categoria": "Conflito",
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "A 'estranha' estrutura da Rolex: a empresa de luxo que não pertence a nenhum bilionário",
-    "desc": "Por determinação de um empresário visionário, uma fundação detém 100% das ações da Rolex, em uma estrutura que a legislação suíça torna permanente — ou seja, ninguém pode vendê‑la, abri‑la em bolsa ou transferi‑la para mãos privadas",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "BBC"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "Eleições no Peru: como crises políticas levaram país a ter uma 'economia zumbi'",
-    "desc": "Mesmo com toda a instabilidade política e as constantes trocas de presidentes, a economia peruana conseguiu crescer nos últimos anos. Mas especialistas ressaltam que nem tudo o que reluz é ouro no país.",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Internacional",
-    "fonte": "BBC"
+    "categoria": "Economia",
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "Os alertas de especialistas antes de começar a usar canetas emagrecedoras",
-    "desc": "Os medicamentos para redução de peso não são a solução rápida que muitos acreditam. Especialistas indicam que ele devem ser acompanhados de mudanças de comportamento, especialmente para manter o peso a longo prazo.",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "BBC"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
     "titulo": "Unabomber: o matemático superdotado que aterrorizou EUA com cartas-bomba e foi preso há 30 anos",
-    "desc": "A campanha de violência de Ted Kaczynski deixou os investigadores desconcertados por quase duas décadas. No dia 3 de abril de 1996, ele foi finalmente capturado numa cabana isolada",
-    "img": "",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "BBC"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Cyclone Gezani kills four in Mozambique as Madagascar assesses damage",
-    "desc": "Powerful storm batters Mozambique’s Inhambane a day after killing at least 41 people in Madagascar.",
-    "img": "",
+    "titulo": "Missão da Artemis 2 à Lua foi um sucesso, mas agora é que vem a parte difícil",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Cultura",
+    "fonte": "BBC News Brasil"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "Astronautas voltaram à Terra 'felizes e saudáveis' após missão à Lua: 'Coisa mais especial que passei'",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Madagascar cyclone death toll hits 40, 16,000 displaced; Mozambique braces",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Por que governo Lula está de olho nas eleições que podem tirar 'irmão' de Bolsonaro do poder na Europa?",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "BBC News Brasil"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Mozambique flood survivors displaced and ‘exhausted’",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Como inesperado discurso de Melania Trump trouxe caso Epstein de volta ao centro das atenções nos EUA",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1529101091764-c3526daf3e8a?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Política",
+    "fonte": "BBC News Brasil"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "O momento em que cápsula da Artemis 2 volta à Terra após dar a volta na Lua; assista",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Cultura",
+    "fonte": "BBC News Brasil"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "Moçambique: Daniel Chapo realça necessidade de reformas no país",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "TotalEnergies restarts $20bn LNG project in Mozambique after 5-year freeze",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Hungria: Eleições legislativas podem colocar fim a reinado de 16 anos de Orban",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Video: Mozambique floods force thousands into displacement camps",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Dina Salústio: “A nossa sociedade precisa de gente que incomode!”",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Drought in the east, floods in the south: Africa battered by climate change",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Brasil: sistema de pagamentos PIX desafia hegemonia americana",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Flooding causes widespread damage across southern Africa",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Estão em curso em Islamabad no Paquistão negociações entre os EUA e o Irão",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=600",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Conflito",
+    "fonte": "RFI Português"
+  },
+  {
+    "data": "12/04/2026",
+    "titulo": "FRELIMO prevê subida de preços dos combustíveis em Moçambique",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Torrential rains displace thousands in Mozambique as floods wreak havoc",
-    "desc": "More than 620,000 affected by Mozambique floods, as vital infrastructure and tens of thousands of homes are destroyed.",
-    "img": "",
+    "titulo": "Angola expulsa namibianos por exploração infantil e tráfico de pessoas",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
     "categoria": "Internacional",
-    "fonte": "Al Jazeera"
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Daniel Chapo defende investimento no conhecimento para monetização dos recursos naturais",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Artemis II regressa da Lua e devolve os Estados Unidos ao espaço",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Cultura",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Raptos recuam e país testa nova fase de confiança",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Djibouti: Ismaïl Omar Guelleh reeleito para um sexto mandato",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "O Silêncio das bombas de combustível",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Tensão política na Guiné-Bissau e regresso de Manuel Chang marcam actualidade",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Chapo corta onde dói: o fim da ilusão da descentralização em Moçambique",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Guiné-Bissau: Primeira edição do Festival Kanta Na Kasa",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Mineração ilegal: Daniel Chapo diz ter escolhido Manica pelo histórico de desmandos",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Guiné-Bissau: Carta aberta denuncia situação de líder do PAIGC",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Cerca de 10.500 turmas estudam ao ar livre em Moçambique",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "António Costa alvo de críticas depois de ter recebido Umaro Sissoco Embaló",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Caso INSS: serviços continuam a ser prestados com “rigor, transparência e responsabilidade”",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Primeiro encontro entre Macron e Leão XIV, Libano no centro das preocupações",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   },
   {
     "data": "12/04/2026",
-    "titulo": "Diálogo trava greve dos médicos no Hospital Central de Nampula",
-    "desc": "Receba\n                    um resumo diário dos destaques via\n                    Whatsapp, acesse o seguinte Link: https://chat.whatsapp.com/LxjeKrr87yPG5jOfEskdYW",
-    "img": "",
+    "titulo": "Leão XIV em África: Uma viagem com múltiplos desafios",
+    "desc": "Clique para ler a notícia completa.",
+    "img": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=600",
     "video": "",
     "tipo": "noticia",
-    "categoria": "Economia",
-    "fonte": "Carta"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Crise diplomática leva Patrice Motsepe ao Senegal enquanto troféu segue “congelado” pelo TAS",
-    "desc": "O braço de ferro pelo título do Campeonato Africano das Nações (CAN) 2025 ganhou novos episódios de alta tensão esta semana. O Presidente da CAF, Patrice Motsepe, desembarcou em Dakar numa missão de emergência para conter a fúria das autoridades senegalesas, após a polémica decisão de retirar o trof",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "UEFA Champions League: A batalha pela supremacia europeia termina com surpresas na primeira volta",
-    "desc": "As grandes potências do futebol europeu mediram forças nos jogos de ida e os resultados prometem uma semana de decisões dramáticas nos relvados do velho continente. A primeira volta dos quartos de final da UEFA Champions League terminou na noite desta quaarta-feira, deixando os adeptos moçambicanos ",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Quartos de final da Liga dos Campeões regressam com duelos decisivos",
-    "desc": "Os quartos de final da UEFA Champions League regressam esta semana, marcando o início da fase mais intensa da principal competição de clubes da Europa. O arranque está previsto para esta terça-feira, 7 de Abril de 2026, com jogos que colocam frente a frente algumas das equipas mais fortes do contine",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Moçambique no pote 2 do sorteio para o CAN-2027",
-    "desc": "Moçambique estará inserido no pote 2 do Sorteio do CAN-2027, prova que terá lugar no Quénia, Uganda e Tanzânia, no próximo ano. A posição actual no ranking coloca os Mambas no caminho das grandes potências do futebol africano. Segundo uma publicação do Jornal “O País”, e é do pote 2 que sairá o nome",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Moçambola 2026 condicionado a pagamento de dívida à LAM",
-    "desc": "O arranque do Campeonato Nacional de Futebol, Moçambola 2026, continua incerto e dependente de um entendimento financeiro entre a Liga Moçambicana de Futebol (LMF) e as Linhas Aéreas de Moçambique (LAM), revelou o presidente da Liga, Alberto Simango Júnior. Em entrevista à Rádio Moçambique, através ",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Presidente da Federação Italiana demite-se após falhar Mundial",
-    "desc": "O presidente da Federação Italiana de Futebol, Gabriele Gravina, apresentou esta quinta-feira a sua demissão do cargo. A decisão surge após várias críticas e na sequência dos fracassos da selecção italiana, que falhou o acesso aos Mundiais de 2022 e 2026. Em comunicado que é citado pela imprensa int",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Liga dos Campeões: Geny Catamo sugere que Arsenal deve temer o Sporting",
-    "desc": "O jovem moçambicano Geny Catamo concedeu, ao início da manhã desta quinta-feira (02), uma extensa entrevista à mais recente edição do Jornal Sporting, na qual, entre outros temas, se mostrou confiante nas possibilidades dos verde e brancos eliminarem o Arsenal nos quartos de final da Liga dos Campeõ",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Mundial 2026ː Arranca a quarta e última fase da venda de bilhetes",
-    "desc": "Arrancou nesta quarta-feira, a quarta e última fase da venda de bilhetes para os jogos do Mundial2026 de futebol, devendo permanecer aberto até ao final do campeonato, anunciou a FIFA em seu site. De acordo a entidade máxima do futebol mundial, esta fase permite ao público em geral comprar bilhetes ",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Desporto",
-    "fonte": "MZNews"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Temos1032vagas de emprego disponíveis\n                    para candidatura.",
-    "desc": "Encontre o seu próximo emprego aqui e candidate-se já",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Vagas de Emprego",
-    "desc": "Explore aqui as vagas de emprego que temos disponíveis neste momento",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Técnico de Contas",
-    "desc": "Maputo (Cidade)",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Contabilista Sénior & Supervisor Administrativo",
-    "desc": "Pemba",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Gestor De Projecto Júnior",
-    "desc": "Maputo (Cidade)",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Product Control Group Officer",
-    "desc": "Maputo (Cidade)",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Oficial de Relacionemento com Clientes de PME II",
-    "desc": "Nampula (Cidade)",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
-  },
-  {
-    "data": "12/04/2026",
-    "titulo": "Gestor de armazém (m/f)",
-    "desc": "Nacala Porto",
-    "img": "",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Emprego",
-    "fonte": "nJOBS"
+    "categoria": "Internacional",
+    "fonte": "RFI Português"
   }
 ]
