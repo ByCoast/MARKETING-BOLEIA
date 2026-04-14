@@ -1,13 +1,11 @@
 {
   "name": "Nampula é a Cena",
-  "short_name": "Nampula Cena",
-  "description": "Portal de notícias, vagas de emprego e oportunidades da província de Nampula, Moçambique.",
+  "short_name": "nampula_cena",
+  "description": "Portal de notícias de Moçambique",
   "start_url": "/nampula-e-a-cena/",
-  "scope": "/nampula-e-a-cena/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#f8f9fa",
-  "theme_color": "#b22222",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "lang": "pt-MZ",
   "icons": [
     {
@@ -23,12 +21,5 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["news", "education"],
-  "screenshots": [
-    {
-      "src": "logo.png",
-      "sizes": "600x60",
-      "type": "image/png"
-    }
-  ]
+  "categories": ["news", "education"]
 }
