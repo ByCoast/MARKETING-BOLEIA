@@ -92,9 +92,22 @@
 }
 </script>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PWA - PROGRESSIVE WEB APP                                -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Nampula Cena">
+<meta name="theme-color" content="#b22222">
+
 <!-- PRECONNECT para performance -->
-<!-- FAVICON -->
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+<!-- FAVICON & ÍCONES PWA -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://api.counterapi.dev">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -1158,6 +1171,17 @@ window.addEventListener('scroll', function() {
   const progresso = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
   document.getElementById('barra-progresso').style.width = progresso + '%';
 });
+
+// ═══════════════════════════════════════
+// REGISTAR SERVICE WORKER (PWA)
+// ═══════════════════════════════════════
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/nampula-e-a-cena/sw.js')
+      .then(reg => console.log('[PWA] Service Worker registado:', reg.scope))
+      .catch(err => console.warn('[PWA] Erro ao registar SW:', err));
+  });
+}
 
 // Bloquear clique direito
 document.addEventListener('contextmenu', event => event.preventDefault());
