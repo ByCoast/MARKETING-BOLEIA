@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: ByCoast/nampula-e-a-cena
+  branch: main
+  site_domain: bycoast.github.io
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "noticias"
+    label: "Notícias"
+    folder: "data"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Data", name: "data", widget: "date" }
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Descrição", name: "desc", widget: "text" }
+      - { label: "Imagem", name: "img", widget: "image" }
+      - { label: "Vídeo", name: "video", widget: "string", required: false }
+      - { label: "Tipo", name: "tipo", widget: "select", options: ["noticia", "vaga", "bolada"] }
+      - { label: "Categoria", name: "categoria", widget: "string" }
+      - { label: "Link Real", name: "link_real", widget: "string", required: false }

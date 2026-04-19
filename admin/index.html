@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin - Nampula é a Cena</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; background: #f5f5f5; }
+    .container { max-width: 800px; margin: 0 auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    h1 { color: #b22222; }
+    textarea { width: 100%; font-family: monospace; font-size: 14px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+    button { background: #b22222; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 16px; }
+    button:hover { background: #8b0000; }
+    .status { margin-top: 20px; padding: 10px; border-radius: 4px; }
+    .success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+    .error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; border-radius: 4px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>📰 Painel de Administração</h1>
+  <p>Edite o <strong>dados.json</strong> diretamente aqui. As alterações serão salvas no GitHub.</p>
+  
+  <div id="auth-status" style="margin-bottom: 20px;"></div>
+  
+  <div id="editor" style="display: none;">
+    <textarea id="json-editor" rows=25></textarea><br><br>
+    <button id="save-btn">💾 Salvar e Publicar</button>
+    <div id="message"></div>
+  </div>
+</div>
+
+<script>
+  const netlifyIdentity = window.netlifyIdentity;
+  const editorDiv = document.getElementById('editor');
+  const authStatus = document.getElementById('auth-status');
+  const textarea = document.getElementById('json-editor');
+  const saveBtn = document.getElementById('save-btn');
+  const messageDiv = document.getElementById('message');
+
+  netlifyIdentity.init();
+
+  function loadJSON() {
+    fetch('/nampula-e-a-cena/dados.json')
+      .then(res => res.json())
+      .then(data => {
+        textarea.value = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        messageDiv.innerHTML = '<div class="error">❌ Erro ao carregar dados.json</div>';
+      });
+  }
+
+  function saveJSON() {
+    try {
+      const newData = JSON.parse(textarea.value);
+      fetch('/.netlify/functions/save-data', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newData)
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.success) {
+          messageDiv.innerHTML = '<div class="success">✅ Dados salvos com sucesso! O site será atualizado em alguns minutos.</div>';
+        } else {
+          messageDiv.innerHTML = '<div class="error">❌ Erro ao salvar: ' + data.error + '</div>';
+        }
+      });
+    } catch(e) {
+      messageDiv.innerHTML = '<div class="error">❌ JSON inválido: ' + e.message + '</div>';
+    }
+  }
+
+  netlifyIdentity.on('login', user => {
+    authStatus.innerHTML = '<div class="success">✅ Logado como ' + user.email + '</div>';
+    editorDiv.style.display = 'block';
+    loadJSON();
+  });
+
+  netlifyIdentity.on('logout', () => {
+    authStatus.innerHTML = '<div class="error">🔒 Não autenticado. Faça login para editar.</div>';
+    editorDiv.style.display = 'none';
+  });
+
+  saveBtn.onclick = saveJSON;
+
+  const user = netlifyIdentity.currentUser();
+  if (user) {
+    authStatus.innerHTML = '<div class="success">✅ Logado como ' + user.email + '</div>';
+    editorDiv.style.display = 'block';
+    loadJSON();
+  } else {
+    authStatus.innerHTML = '<div class="error">🔒 Não autenticado. <button onclick="netlifyIdentity.open()">Login com GitHub</button></div>';
+  }
+</script>
+</body>
+</html>
