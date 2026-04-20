@@ -3,6 +3,7 @@ backend:
   repo: bycoast/nampula-e-a-cena
   branch: main
   base_url: https://netlify-cms-github-oauth-provider-qlyb.onrender.com
+  auth_endpoint: /auth
 
 locale: pt
 media_folder: "imagens"
