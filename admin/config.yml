@@ -1,55 +1,23 @@
 backend:
   name: github
-  repo: ByCoast/nampula-e-a-cena
+  repo: bycoast/nampula-e-a-cena
   branch: main
   base_url: https://netlify-cms-github-oauth-provider-qlyb.onrender.com
-  auth_endpoint: /auth/github
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+locale: pt
+media_folder: "imagens"
+public_folder: "/imagens"
 
 collections:
   - name: "noticias"
-    label: "📰 Notícias"
-    label_singular: "Notícia"
-    folder: "data/noticias"
+    label: "Notícias"
+    folder: "_noticias"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Data", name: "data", widget: "date", default: "" }
-      - { label: "Título", name: "titulo", widget: "string" }
-      - { label: "Descrição", name: "desc", widget: "text" }
-      - { label: "Imagem", name: "img", widget: "image", required: false }
-      - { label: "Vídeo", name: "video", widget: "string", required: false }
-      - { label: "Tipo", name: "tipo", widget: "hidden", default: "noticia" }
-      - { label: "Categoria", name: "categoria", widget: "select", options: ["Política", "Economia", "Saúde", "Tecnologia", "Sociedade", "Educação", "Ambiente", "Cultura", "Desporto", "Internacional", "Segurança", "Corrupção"] }
-      - { label: "Link Real", name: "link_real", widget: "string", required: false }
-
-  - name: "vagas"
-    label: "💼 Vagas de Emprego"
-    label_singular: "Vaga"
-    folder: "data/vagas"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Data", name: "data", widget: "date", default: "" }
-      - { label: "Título", name: "titulo", widget: "string" }
-      - { label: "Descrição", name: "desc", widget: "text" }
-      - { label: "Imagem", name: "img", widget: "image", required: false }
-      - { label: "Tipo", name: "tipo", widget: "hidden", default: "vaga" }
-      - { label: "Categoria", name: "categoria", widget: "hidden", default: "Emprego" }
-      - { label: "Link da Vaga", name: "link_vaga", widget: "string", required: false }
-
-  - name: "boladas"
-    label: "🔥 Mercado Negro"
-    label_singular: "Produto"
-    folder: "data/boladas"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Data", name: "data", widget: "date", default: "" }
-      - { label: "Título", name: "titulo", widget: "string" }
-      - { label: "Descrição", name: "desc", widget: "text" }
-      - { label: "Imagem", name: "img", widget: "image", required: false }
-      - { label: "Tipo", name: "tipo", widget: "hidden", default: "bolada" }
-      - { label: "Categoria", name: "categoria", widget: "select", options: ["Tecnologia", "Smartphones", "Starlink", "Energia", "Drones", "Computadores", "Tablets", "Acessórios", "Áudio"] }
+      - {label: "Título", name: "titulo", widget: "string"}
+      - {label: "Data", name: "data", widget: "datetime", format: "DD/MM/YYYY", date_format: "DD/MM/YYYY", time_format: false}
+      - {label: "Categoria", name: "categoria", widget: "select", options: ["Política", "Economia", "Saúde", "Educação", "Tecnologia", "Segurança", "Sociedade", "Ambiente", "Internacional", "Cultura"]}
+      - {label: "Descrição", name: "desc", widget: "text"}
+      - {label: "Imagem URL", name: "img", widget: "string", required: false}
+      - {label: "Link fonte", name: "link_real", widget: "string", required: false}
+      - {label: "Tipo", name: "tipo", widget: "hidden", default: "noticia"}
