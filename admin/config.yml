@@ -2,9 +2,8 @@ backend:
   name: github
   repo: ByCoast/nampula-e-a-cena
   branch: main
-  site_domain: bycoast.github.io
-
-local_backend: true
+  base_url: https://netlify-cms-github-oauth-provider-qlyb.onrender.com
+  auth_endpoint: /auth/github
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
