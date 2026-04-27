@@ -34,17 +34,6 @@
   },
   {
     "data": "27/04/2026",
-    "titulo": "nJOBS | Receba vagas de Emprego via SMS em Moçambique",
-    "desc": "Temos vagas de emprego disponíveis para candidatura em Moçambique. Encontre o seu próximo emprego aqui e candidate-se já.",
-    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
-    "video": "",
-    "tipo": "vaga",
-    "categoria": "Emprego",
-    "fonte": "nJOBS",
-    "link_vaga": "https://njobs.co.mz"
-  },
-  {
-    "data": "27/04/2026",
     "titulo": "nJOBS | Vagas de Emprego",
     "desc": "Encontre vagas de emprego em Moçambique de forma rápida e prática. Descubra um mundo de oportunidades com a nJOBS",
     "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
@@ -53,50 +42,6 @@
     "categoria": "Emprego",
     "fonte": "nJOBS",
     "link_vaga": "https://njobs.co.mz/vagas-de-emprego/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Alertas por SMS | nJOBS",
-    "desc": "A nJOBS procura trazer informações via SMS sobre as vagas diponíveis em diversos meios como sites, revistas, jornais entre outros.",
-    "img": "http://njobs.co.mz/wp-content/uploads/2022/08/cover-page-sms-scaled.jpg",
-    "video": "",
-    "tipo": "vaga",
-    "categoria": "Emprego",
-    "fonte": "nJOBS",
-    "link_vaga": "https://njobs.co.mz/alertas-por-sms/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Contacto | nJOBS",
-    "desc": "Nosso contacto. Endereço: Rua Daniel Malinda No. 38, R/CB. Central, Maputo, Moçambique. Ligue-nos pelo +258 86 119 0119, Email...",
-    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
-    "video": "",
-    "tipo": "vaga",
-    "categoria": "Emprego",
-    "fonte": "nJOBS",
-    "link_vaga": "https://njobs.co.mz/contacto"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Acesso Restrito | nJOBS",
-    "desc": "A nJOBS facilita o recrutamento conectando sua empresa aos melhores talentos. O cadastro e a publicação de vagas são gratuitos.",
-    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
-    "video": "",
-    "tipo": "vaga",
-    "categoria": "Emprego",
-    "fonte": "nJOBS",
-    "link_vaga": "https://njobs.co.mz/acesso-restrito"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "nJOBS | Anunciar Aqui",
-    "desc": "Anuncie connosco, é grátis! Edite os campos abaixo e submeta para anunciar aqui: Cargo, Tipo de Vaga, No. de Vagas, Empresa, Local, etc.",
-    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
-    "video": "",
-    "tipo": "vaga",
-    "categoria": "Emprego",
-    "fonte": "nJOBS",
-    "link_vaga": "https://njobs.co.mz/anunciar-aqui"
   },
   {
     "data": "27/04/2026",
@@ -419,91 +364,14 @@
   },
   {
     "data": "27/04/2026",
-    "titulo": "it Midia - CIOPatrocinador",
-    "desc": "Clique para ler a notícia completa",
-    "img": "https://plataforma.itforum.com.br/images/logo-it-forum.png",
+    "titulo": "Cloudflare protects this website",
+    "desc": "Cloudflare is a free global CDN and DNS provider that can speed up and protect any site online",
+    "img": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/53qCYhQbir5WtIU0VDWESo/954a48bfb17f429acf469e5f14345d83/unnamed-3.png",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
     "fonte": "IT Forum",
-    "link_real": "https://plataforma.itforum.com.br/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Conteúdo, relacionamento e negócios para a comunidade de TI",
-    "desc": "O IT Forum é a mais importante plataforma B2B do setor, pois conecta CIOs que mais investem em tecnologia aos executivos da indústria de TI, a partir de",
-    "img": "https://itforum.com.br/wp-content/uploads/2022/11/shutterstock_528397474-1.jpg",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://itforum.com.br/foruns"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Inteligência Artificial",
-    "desc": "As principais novidades e anúncios do universo da Inteligência Artificial (IA) você lê aqui.",
-    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://itforum.com.br/inteligencia-artificial/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "MARÇO 2026 - Revista IT Forum",
-    "desc": "HubChannel",
-    "img": "https://acervo.maven.com.br/files/flip/ITMIDIA/logo.png",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://acervo.maven.com.br/pub/itmidia/?flip=acervo"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Antes da TI, a estratégia",
-    "desc": "Todos os anos, o IT Forum colabora com os líderes de tecnologia das empresas brasileiras. Informações sobre orçamentos, estratégias e expectativas das",
-    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://itforum.com.br/estudos/antes-da-ti/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Antes da TI, a estratégia - Indústria de TI",
-    "desc": "A pesquisa reúne informações de executivos de marketing e vendas dos principais fornecedores de TI do país, visando compreender a evolução da indústria e a",
-    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://itforum.com.br/estudos/antes-da-ti-industria/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "Inovação tecnológica: fique por dentro das novidades e explore nossos recursos gratuitos na área",
-    "desc": "O HIT - Hub de Informação de Tecnologia - reúne Materiais Educativos e Gratuitos sobre Tecnologia de Grandes Players do Mercado. Baixe E-books e Webcasts.",
-    "img": "https://itforum.com.br/wp-content/uploads/2021/02/hit.png",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://itforum.com.br/hit/"
-  },
-  {
-    "data": "27/04/2026",
-    "titulo": "IT Forum 2026 - Quero patrocinar - PARs",
-    "desc": "O IT Forum Ã© a principal plataforma e maior comunidade de TI do Brasil, oferecendo uma experiÃªncia imersiva em conteÃºdo, relacionamento e oportunidades de negÃ³cios!",
-    "img": "https://d335luupugsy2.cloudfront.net/cms/files/52/1761242357/$6724n5wawr6",
-    "video": "",
-    "tipo": "noticia",
-    "categoria": "Tecnologia",
-    "fonte": "IT Forum",
-    "link_real": "https://materiais.itforum.com.br/quero-patrocinar-it-forum-2025-pars?_gl=1*1xrklc0*_gcl_au*ODg5NTQxNTg0LjE3MjU2NDQ2MDI."
+    "link_real": "https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=itforum.com.br"
   },
   {
     "data": "27/04/2026",
@@ -520,7 +388,7 @@
     "data": "27/04/2026",
     "titulo": "TecMundo (@tecmundo) • Instagram photos and videos",
     "desc": "976K Followers, 99 Following, 10K Posts - TecMundo (@tecmundo) on Instagram: \"O seu mundo tech: produtos, segurança e notícias 🌎\n🛒 @guiadecompras.tecmundo\n🎬 @oficialminhaserie\n🎮 @voxeloficial\n💼 @thebriefoficial\"",
-    "img": "https://scontent.cdninstagram.com/v/t51.82787-19/587657555_18542532226017548_1977399850356588762_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=HDDHEit8LxwQ7kNvwHRx0zq&_nc_oc=Adp1oEcdBneLNAvLBmm46RZWeEoTU15S0XZaXL5Zc6LufoeluPVcEFhCPNIHavs1FpE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=JUTYWhOk_36yhmOR2Gtokw&_nc_ss=7960f&oh=00_Af2-ek6wWZ4YWCRjHm1HVQNWuqiMJfBrFls_zudx5J88BQ&oe=69F4C3E7",
+    "img": "https://scontent.cdninstagram.com/v/t51.82787-19/587657555_18542532226017548_1977399850356588762_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=HDDHEit8LxwQ7kNvwHRx0zq&_nc_oc=Adp1oEcdBneLNAvLBmm46RZWeEoTU15S0XZaXL5Zc6LufoeluPVcEFhCPNIHavs1FpE&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=UhPB1gtIwD18iOuOXGdN4Q&_nc_ss=7960f&oh=00_Af3ELW_xXvoVxq0UghksSpGX9aoTAXvTV5_JgbQm8kMm-w&oe=69F4C3E7",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -629,7 +497,7 @@
   {
     "data": "27/04/2026",
     "titulo": "TikTok - Make Your Day",
-    "desc": "Clique para ler a notícia completa",
+    "desc": "Clique para ler",
     "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600",
     "video": "",
     "tipo": "noticia",
@@ -669,6 +537,28 @@
     "categoria": "Tecnologia",
     "fonte": "TecMundo",
     "link_real": "https://www.megacurioso.com.br/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Os Melhores Jogos Online",
+    "desc": "No Click Jogos você encontra vários jogos online grátis para se divertir sozinho ou com seus amigos! Confira jogos de tiro, carros, infantis e muito mais!",
+    "img": "https://cj.ibxk.com.br/2022/11/19/19172349458000.png",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "TecMundo",
+    "link_real": "https://www.clickjogos.com.br/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Cupom KaBuM |  70% off - Abril 2026",
+    "desc": "Use um Cupom de Desconto KaBuM com até 70% off em robô aspirador, cadeira gamer, PC Gamer e SSD",
+    "img": "https://tm.ibxk.com.br/2025/11/28/Cupom_Ka_Bu_M_a326c59011.png?ims=1600x900/filters:format(jpg)",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "TecMundo",
+    "link_real": "https://www.tecmundo.com.br/produto/402694-cupom-kabum.htm?utm_source=tecmundo&utm_medium=rodape&utm_campaign=widget_cupons"
   },
   {
     "data": "27/04/2026",
@@ -805,7 +695,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Conta Globo - Minha Conta",
-    "desc": "Clique para ler a notícia completa",
+    "desc": "Clique para ler",
     "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=600",
     "video": "",
     "tipo": "noticia",
@@ -848,6 +738,17 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "CARNAVAL 2026 EM MINAS GERAIS",
+    "desc": "'Gay friendly', 'inclusivo' e 'sede da criatividade alcoólica': como o carnaval de BH repercutiu na imprensa portuguesa",
+    "img": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png?g1",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "G1 Tecnologia",
+    "link_real": "https://g1.globo.com/mg/minas-gerais/carnaval/2026/"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Home - Jornal Notícias",
     "desc": "Editorial Há 8 horas atrás Leia + Opinião BELAS MEMÓRIAS: De volta à faina  Por admin-sn Desde quando conduzir seu carro virou…",
     "img": "https://www.jornalnoticias.co.mz/wp-content/uploads/2026/04/mrec.gif",
@@ -860,7 +761,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Edição Digital - Sociedade do Notícias",
-    "desc": "Clique para ler a notícia completa",
+    "desc": "Clique para ler",
     "img": "https://flipbook.snoticias.app.co.mz/images/Logo100-transparent.png",
     "video": "",
     "tipo": "noticia",
@@ -999,6 +900,160 @@
     "categoria": "Nacional",
     "fonte": "Jornal Notícias",
     "link_real": "https://jornalnoticias.co.mz/destaque/chapo-diversifica-sem-treguas-frentes-da-diplomacia-economica/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "BELAS MEMÓRIAS: De volta à faina",
+    "desc": "“O que é bom dura pouco”, diz um ditado popular que ilustra quão efémeras são as coisas prazerosas, de entre elas a felicidade e as férias.",
+    "img": "https://jornalnoticias.co.mz/wp-content/uploads/2026/04/Anabela-Massingue-1.jpg",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Nacional",
+    "fonte": "Jornal Notícias",
+    "link_real": "https://jornalnoticias.co.mz/destaque/belas-memorias-de-volta-a-faina/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "nJOBS | Receba vagas de Emprego via SMS em Moçambique",
+    "desc": "Temos vagas de emprego disponíveis para candidatura em Moçambique. Encontre o seu próximo emprego aqui e candidate-se já.",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "nJOBS",
+    "link_vaga": "https://njobs.co.mz"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Alertas por SMS | nJOBS",
+    "desc": "A nJOBS procura trazer informações via SMS sobre as vagas diponíveis em diversos meios como sites, revistas, jornais entre outros.",
+    "img": "http://njobs.co.mz/wp-content/uploads/2022/08/cover-page-sms-scaled.jpg",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "nJOBS",
+    "link_vaga": "https://njobs.co.mz/alertas-por-sms/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Contacto | nJOBS",
+    "desc": "Nosso contacto. Endereço: Rua Daniel Malinda No. 38, R/CB. Central, Maputo, Moçambique. Ligue-nos pelo +258 86 119 0119, Email...",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "nJOBS",
+    "link_vaga": "https://njobs.co.mz/contacto"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Acesso Restrito | nJOBS",
+    "desc": "A nJOBS facilita o recrutamento conectando sua empresa aos melhores talentos. O cadastro e a publicação de vagas são gratuitos.",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "nJOBS",
+    "link_vaga": "https://njobs.co.mz/acesso-restrito"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "nJOBS | Anunciar Aqui",
+    "desc": "Anuncie connosco, é grátis! Edite os campos abaixo e submeta para anunciar aqui: Cargo, Tipo de Vaga, No. de Vagas, Empresa, Local, etc.",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "nJOBS",
+    "link_vaga": "https://njobs.co.mz/anunciar-aqui"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "it Midia - CIOPatrocinador",
+    "desc": "Clique para ler a notícia completa",
+    "img": "https://plataforma.itforum.com.br/images/logo-it-forum.png",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://plataforma.itforum.com.br/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Conteúdo, relacionamento e negócios para a comunidade de TI",
+    "desc": "O IT Forum é a mais importante plataforma B2B do setor, pois conecta CIOs que mais investem em tecnologia aos executivos da indústria de TI, a partir de",
+    "img": "https://itforum.com.br/wp-content/uploads/2022/11/shutterstock_528397474-1.jpg",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://itforum.com.br/foruns"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Inteligência Artificial",
+    "desc": "As principais novidades e anúncios do universo da Inteligência Artificial (IA) você lê aqui.",
+    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://itforum.com.br/inteligencia-artificial/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "MARÇO 2026 - Revista IT Forum",
+    "desc": "HubChannel",
+    "img": "https://acervo.maven.com.br/files/flip/ITMIDIA/logo.png",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://acervo.maven.com.br/pub/itmidia/?flip=acervo"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Antes da TI, a estratégia",
+    "desc": "Todos os anos, o IT Forum colabora com os líderes de tecnologia das empresas brasileiras. Informações sobre orçamentos, estratégias e expectativas das",
+    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://itforum.com.br/estudos/antes-da-ti/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Antes da TI, a estratégia - Indústria de TI",
+    "desc": "A pesquisa reúne informações de executivos de marketing e vendas dos principais fornecedores de TI do país, visando compreender a evolução da indústria e a",
+    "img": "https://itforum.com.br/wp-content/uploads/2023/08/SHARE.jpg",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://itforum.com.br/estudos/antes-da-ti-industria/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Inovação tecnológica: fique por dentro das novidades e explore nossos recursos gratuitos na área",
+    "desc": "O HIT - Hub de Informação de Tecnologia - reúne Materiais Educativos e Gratuitos sobre Tecnologia de Grandes Players do Mercado. Baixe E-books e Webcasts.",
+    "img": "https://itforum.com.br/wp-content/uploads/2021/02/hit.png",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://itforum.com.br/hit/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "IT Forum 2026 - Quero patrocinar - PARs",
+    "desc": "O IT Forum Ã© a principal plataforma e maior comunidade de TI do Brasil, oferecendo uma experiÃªncia imersiva em conteÃºdo, relacionamento e oportunidades de negÃ³cios!",
+    "img": "https://d335luupugsy2.cloudfront.net/cms/files/52/1761242357/$6724n5wawr6",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Tecnologia",
+    "fonte": "IT Forum",
+    "link_real": "https://materiais.itforum.com.br/quero-patrocinar-it-forum-2025-pars?_gl=1*1xrklc0*_gcl_au*ODg5NTQxNTg0LjE3MjU2NDQ2MDI."
   },
   {
     "data": "27/04/2026",
