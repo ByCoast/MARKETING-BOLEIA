@@ -1507,8 +1507,173 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Administração",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/administracao"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Agropecuária",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/agropecuaria"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Assistência Social",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/assistencia-social"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Auditoria e Consultoria",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/auditoria-e-consultoria"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Contabilidade / Finanças",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/contabilidade"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Engenheiro/a",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/engenheiro-a"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Recursos Humanos",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/recursos-humanos"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Portal Emprego",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Administração",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/administracao"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Agropecuária",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/agropecuaria"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Assistência Social",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/assistencia-social"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Auditoria e Consultoria",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/auditoria-e-consultoria"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Contabilidade / Finanças",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/contabilidade"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Engenheiro/a",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/engenheiro-a"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Recursos Humanos",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/category/recursos-humanos"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "63 Vagas Abertas no Sector de Mineração",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1519,7 +1684,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor(a) de Procurement & Cadeia de Abastecimento",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1529,8 +1694,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "OPORTUNIDADE DE CONSULTORIA",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/oportunidade-de-consultoria"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Aldelia Abre (09) Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1541,7 +1717,7 @@
   {
     "data": "27/04/2026",
     "titulo": "A PLAGROUND, Abre Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1552,7 +1728,7 @@
   {
     "data": "27/04/2026",
     "titulo": "63 Vagas Abertas no Sector de Mineração",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1563,7 +1739,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor(a) de Procurement & Cadeia de Abastecimento",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1573,8 +1749,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "OPORTUNIDADE DE CONSULTORIA",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/oportunidade-de-consultoria"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Aldelia Abre (09) Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1585,7 +1772,7 @@
   {
     "data": "27/04/2026",
     "titulo": "A PLAGROUND, Abre Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1596,7 +1783,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Responsável do Centro de Negócios",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1607,7 +1794,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1618,7 +1805,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Administrative Assistant, EpiC MNCH+N Project",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1629,7 +1816,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Diretor Operacional | Moçambique",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1640,7 +1827,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Country Director – Mozambique",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1650,8 +1837,30 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Recrutamento de Instrutores para seguintes Áreas :Engenharia ,Ciências da Terra  e Análise de Dados",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/recrutamento-de-instrutores-para-seguintes-areas-engenharia-ciencias-da-terra-e-analise-de-dados"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "VAGA – SENIOR QA/QC MATERIAL SPECIALIST – OIL & GAS",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/vaga-senior-qa-qc-material-specialist-oil-gas"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Planning Engineer (CCPP) – Inhambane",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1662,7 +1871,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – EPCI HSE Advisor – Afungi",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1673,7 +1882,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (9) HSE Officer – Cabo Delgado",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1684,7 +1893,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – Inquiridores , Médicos Generalistas ,Serventes de Clínica e Técnicos de Medicina",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1695,7 +1904,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnico de Medicina Geral",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1706,7 +1915,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Inquiridor",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1717,7 +1926,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Médico Generalista",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1728,7 +1937,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Estágio Comunitário em Agricultura Regenerativa, Extensão Agrícola e Agronegócio",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1739,7 +1948,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga para Estagiário/a – Monitoramento Ecológico",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1750,7 +1959,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – Pontos focais ( Pemba) Metuge’ Chiure",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1761,7 +1970,7 @@
   {
     "data": "27/04/2026",
     "titulo": "A Fundação Wiwanana, Abre (45) Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1771,8 +1980,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Recrutamento: 238 ACTORES ( nas quais 131 MENTORAS e 107 FACILITADORES)",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/recrutamento-238-actores-nas-quais-131-mentoras-e-107-facilitadores"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vagas – (03) ASSISTENTES DE MONITORIA & AVALIAÇÃO (M&A) Quissanga, Erati e Ancuabe",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1783,7 +2003,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Controlador(a) da Distribuição",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1794,7 +2014,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnico Superior",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1805,7 +2025,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Promotor Comercial",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1816,7 +2036,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente de Manutenção – Nampula",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1826,8 +2046,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Estágio Remunerado – Espaço Língua e MediaTeca – (CCFM)",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/estagio-remunerado-espaco-lingua-e-mediateca-ccfm"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vagas – (1) Warehouse Coordinator, (1)Transport and Distribution Officer, (1)Driver",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1838,7 +2069,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Business Process & Automation Analyst (IA)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1849,7 +2080,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Broker Sénior",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1860,7 +2091,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Motorista Profissional (01 vaga)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1871,7 +2102,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – NDT Inspectors (RT) – Mozambique",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1882,7 +2113,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – District Project Officer-RHCC-6 – Tete/Mutarara",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1893,7 +2124,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (3) vagas para PROFESSORES de Matemática, Física, Química e Biologia",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1904,7 +2135,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista Júnior – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1915,7 +2146,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Information Management Associate (Shelter Cluster)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1926,7 +2157,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Compliance Officer",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1937,7 +2168,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Senior Manager, Programs (Mobileaid)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1948,7 +2179,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista Júnior",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1959,7 +2190,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Carteira de Crédito",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1969,8 +2200,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Oportunidades de Estágio Técnico",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/oportunidades-de-estagio-tecnico"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Project Manager",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1980,8 +2222,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "100 vagas para Motoristas de Autocarros em Portugal",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/100-vagas-para-motoristas-de-autocarros-em-portugal"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Especialista de Garantia e Controlo da Qualidade",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -1992,7 +2245,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga -Educador/a na Área de Letras",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2003,7 +2256,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Coordenador de Procurement",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2014,7 +2267,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Concurso Público Abre 26 Vagas em Diversas Áreas Profissionais",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2025,7 +2278,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (45) Consultores de Vendas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2036,7 +2289,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – Agentes de Televendas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2046,8 +2299,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Contratação de Serviços de Consultoria para o Desenho, Desenvolvimento, Integração e Implementação de um Sistema Integra",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/contratacao-de-servicos-de-consultoria-para-o-desenho-desenvolvimento-integracao-e-implementacao-de-um-sistema-integrado-de-gestao-de-programas-e-projectos-ippmis"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Gerente",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2058,7 +2322,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Visits and Events Coordinator",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2069,7 +2333,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Warehouse Responsible",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2080,7 +2344,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Sr Technical Officer RCCE",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2091,7 +2355,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Designer – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2102,7 +2366,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (70) Facilitadores Comunitários (m/f)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2113,7 +2377,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Oficial de Inclusão Social – Gênero e Inclusão da Deficiência ( Cabo Delgado – Pemba )",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2124,7 +2388,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Aftersales Field Technical Support Coordinator – Mozambique",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2135,7 +2399,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Business Development Specialist – Mozambique",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2146,7 +2410,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Oficial de Programa",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2157,7 +2421,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (75) Inquiridores (m/f) – Para Vários Distritos",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2168,7 +2432,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Motorista Profissional De Cargas Pesadas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2179,7 +2443,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (2) Advogados Estagiários (M/F)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2190,7 +2454,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnica de Higiene, Segurança e Trabalho (HST)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2201,7 +2465,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Recepcionista/Administrativo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2212,7 +2476,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Classificador de Gemas (M/F)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2223,7 +2487,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (02) Subscritores para reforçar a sua equipa em Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2234,7 +2498,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista Sénior / Gestor de Carteira de Consultoria",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2245,7 +2509,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Coordenador de Operações de Cadeia de Suprimentos",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2256,7 +2520,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Analista de Gestão de Activos Logísticos e Fornecedores",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2267,7 +2531,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Tax Trainee",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2278,7 +2542,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Auditor Externo – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2289,7 +2553,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente de Tesouraria (National Posicion)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2299,8 +2563,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "Recrutamento: Especialistas e Supervisores de Manutenção de Equipamentos Pesados",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/recrutamento-especialistas-e-supervisores-de-manutencao-de-equipamentos-pesados"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vagas – Técnico(a) de Laboratório Humanístico",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2311,7 +2586,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Oficial de Frota e Instalações",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2322,7 +2597,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Clientes",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2333,7 +2608,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gerente (Beira)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2344,7 +2619,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Export controller – Beira",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2355,7 +2630,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente Comercial B2B",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2366,7 +2641,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Processamento Salarial",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2376,8 +2651,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "7 VAGAS MILLENIUM CHALLENGE ACCOUNT",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/7-vagas-millenium-challenge-account"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Agente de Despacho de Mercadorias",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2387,8 +2673,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "20 (vinte) vagas de Agentes de Serviço",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/20-vinte-vagas-de-agentes-de-servico"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Enfermeira de Saúde Materno-infantil",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2399,7 +2696,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Marketing e Finanças",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2410,7 +2707,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente de Finanças e Administração",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2421,7 +2718,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Controlador de Frota – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2432,7 +2729,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista Júnior de Contas a Pagar (x1) – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2443,7 +2740,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnico(a) de Administração e Finanças",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2454,7 +2751,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – Líder de Excelência em Produção, Líder Nacional SHEQ, Líder de Excelência em Logística e Líder Nacional-Engenhar",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2465,7 +2762,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – HSE Officer  – Cabo Delgado",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2476,7 +2773,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – RFI Inspector  – Afungi",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2487,7 +2784,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga -RFI Officer – Afungi",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2498,7 +2795,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Desenvolvedor Júnior de Aplicações & Suporte",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2509,7 +2806,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Lead Surveyor",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2519,8 +2816,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "ONU Mulheres recruta Gestor(a) Sénior e Pesquisador(a) em Moçambique",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/onu-mulheres-recruta-gestora-senior-e-pesquisadora-em-mocambique"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – Coordenador de Armazém para Pemba",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2531,7 +2839,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – 04 (quatro) Operadores – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2542,7 +2850,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Desenvolvedor Full Stack",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2553,7 +2861,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnico de Envolvimento de Stakeholders (Nivel Intermédio) – M/F",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2564,7 +2872,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga –  Técnico de Procurement e Logística",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2575,7 +2883,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Logistic Officer",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2586,7 +2894,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Oficial de Campo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2597,7 +2905,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Técnico de Recursos Humanos (M/F) para Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2608,7 +2916,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Supervisor(a) de Vendas (Sector FMCG)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2619,7 +2927,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente de Shopping de exportação-trânsito",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2630,7 +2938,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Recursos Humanos",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2641,7 +2949,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Engenheira Civil Júnior",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2652,7 +2960,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (03) Contabilistas – Beira",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2663,7 +2971,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor de Clientes Corporate – Maputo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2674,7 +2982,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Assistente Executivo",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2685,7 +2993,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Contabilista de Subvenções",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2696,7 +3004,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – Técnicos de campo e Técnico para Centro de Coordenação de informação (CCI)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2707,7 +3015,7 @@
   {
     "data": "27/04/2026",
     "titulo": "(07) Vagas de emprego em Diversas áreas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2718,7 +3026,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga Paralegal — Reencontro",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2729,7 +3037,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (04) Técnicos de Equipe de Vendas e Gestor de Clientes",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2740,7 +3048,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor Sênior de Projetos – Petroquímica",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2751,7 +3059,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gerente de Vendas",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2762,7 +3070,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Oficial de Relacionemento com Clientes de PME II",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2773,7 +3081,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vagas – (47) Inquiridores para os distritos da Província de Sofala",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2783,8 +3091,19 @@
   },
   {
     "data": "27/04/2026",
+    "titulo": "A World Vision está a recrutar (04) Inquiridores (m/f)",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/a-world-vision-esta-a-recrutar-04-inquiridores-m-f"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Vaga – (2) Oficiais de Mercadorias Locais (Matola e Manhiça)",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2795,7 +3114,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Lubricants Territory Manager NTW",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2806,7 +3125,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Mozambican Repair Engineering Contractor",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2817,7 +3136,7 @@
   {
     "data": "27/04/2026",
     "titulo": "63 Vagas Abertas no Sector de Mineração",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
@@ -2828,13 +3147,57 @@
   {
     "data": "27/04/2026",
     "titulo": "Vaga – Gestor(a) de Procurement & Cadeia de Abastecimento",
-    "desc": "Candidate-se através do link",
+    "desc": "Candidate-se através do link para mais informações",
     "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
     "video": "",
     "tipo": "vaga",
     "categoria": "Emprego",
     "fonte": "WizAndroid",
     "link_vaga": "https://wizandroidmz.com/emprego/vaga-gestora-de-procurement-cadeia-de-abastecimento"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "OPORTUNIDADE DE CONSULTORIA",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/oportunidade-de-consultoria"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Os meus melhores cumprimentos especiais Meu nome é Momade José…",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/vaga-formadora-etica-anticorrupcao-e-compliance-abc"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Eu gostaria de trabalhar nesta empresa para ter mas conhecimento…",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/vagas-5-operadores-de-call-center"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Estou interessado de trabalho como faço para me candidatar",
+    "desc": "Candidate-se através do link para mais informações",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Emprego",
+    "fonte": "WizAndroid",
+    "link_vaga": "https://wizandroidmz.com/emprego/vaga-estagiario-de-qualidade-e-processos"
   },
   {
     "data": "27/04/2026",
@@ -2982,7 +3345,7 @@
   {
     "data": "27/04/2026",
     "titulo": "Cabo Delgado soma 11 ataques em duas semanas",
-    "desc": "",
+    "desc": "ACLED regista 11 ataques em duas semanas em Cabo Delgado, quase todos ligados ao Estado Islâmico, com nove mortos. Total de vítimas desde 2017 sobe para 6.527, num conflito que continua a intensificar-se.",
     "img": "https://static.dw.com/image/76798441_6.jpg",
     "video": "",
     "tipo": "noticia",
@@ -2993,8 +3356,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Lista inédita do IT Forum apresenta CMOs de destaque em tecnologia",
-    "desc": "",
-    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAIaAQAAAACW+wLpAAAAAnRSTlMAAHaTzTgAAABZSURBVHja7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBsPKQABWIe9EgAAAABJRU5ErkJggg==",
+    "desc": "O IT Forum apresenta uma lista inédita de Chief Marketing Officers (CMOs) em destaque no setor de tecnologia, reconhecendo lideranças que estão redefinindo o",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/CMO.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3004,8 +3367,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Lista inédita do IT Forum apresenta CMOs de destaque em tecnologia",
-    "desc": "",
-    "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=600",
+    "desc": "O IT Forum apresenta uma lista inédita de Chief Marketing Officers (CMOs) em destaque no setor de tecnologia, reconhecendo lideranças que estão redefinindo o",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/CMO.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3015,8 +3378,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Google é processado pelo Cade por uso indevido de conteúdo",
-    "desc": "",
-    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAIaAQAAAACW+wLpAAAAAnRSTlMAAHaTzTgAAABZSURBVHja7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBsPKQABWIe9EgAAAABJRU5ErkJggg==",
+    "desc": "Nesta quinta-feira (23) o Tribunal do Conselho Administrativo de Defesa Econômica (Cade) decidiu retomar e aprofundar as investigações sobre a conduta do",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/Google.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3026,8 +3389,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Google é processado pelo Cade por uso indevido de conteúdo",
-    "desc": "",
-    "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=600",
+    "desc": "Nesta quinta-feira (23) o Tribunal do Conselho Administrativo de Defesa Econômica (Cade) decidiu retomar e aprofundar as investigações sobre a conduta do",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/Google.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3037,8 +3400,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Meta demite 8 mil funcionários para ampliar investimentos em IA",
-    "desc": "",
-    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAIaAQAAAACW+wLpAAAAAnRSTlMAAHaTzTgAAABZSURBVHja7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBsPKQABWIe9EgAAAABJRU5ErkJggg==",
+    "desc": "A Meta anunciou nesta quinta-feira (23) a demissão de aproximadamente oito mil postos de trabalho, o equivalente a 10% de seu quadro global. A decisão",
+    "img": "https://itforum.com.br/wp-content/uploads/2025/01/OFICIAL-Dimensao-Wordpress-6.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3048,8 +3411,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Meta demite 8 mil funcionários para ampliar investimentos em IA",
-    "desc": "",
-    "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=600",
+    "desc": "A Meta anunciou nesta quinta-feira (23) a demissão de aproximadamente oito mil postos de trabalho, o equivalente a 10% de seu quadro global. A decisão",
+    "img": "https://itforum.com.br/wp-content/uploads/2025/01/OFICIAL-Dimensao-Wordpress-6.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3059,8 +3422,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Fábio Napoli não é mais CTO do Itaú Unibanco",
-    "desc": "",
-    "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAIaAQAAAACW+wLpAAAAAnRSTlMAAHaTzTgAAABZSURBVHja7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBsPKQABWIe9EgAAAABJRU5ErkJggg==",
+    "desc": "Fábio Napoli não ocupa mais o cargo de diretor de tecnologia (CTO) do Itaú Unibanco. Segundo apuração do IT Forum com fontes familiarizadas com o assunto, o",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/Fabio-Napoli.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
@@ -3070,8 +3433,8 @@
   {
     "data": "27/04/2026",
     "titulo": "Fábio Napoli não é mais CTO do Itaú Unibanco",
-    "desc": "",
-    "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=600",
+    "desc": "Fábio Napoli não ocupa mais o cargo de diretor de tecnologia (CTO) do Itaú Unibanco. Segundo apuração do IT Forum com fontes familiarizadas com o assunto, o",
+    "img": "https://itforum.com.br/wp-content/uploads/2026/04/Fabio-Napoli.jpg",
     "video": "",
     "tipo": "noticia",
     "categoria": "Tecnologia",
