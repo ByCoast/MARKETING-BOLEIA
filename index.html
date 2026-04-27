@@ -907,7 +907,7 @@ carregar();
 <script>
 // Função para atualizar o destaque com a notícia mais recente
 function atualizarDestaque() {
-    fetch('/nampula-e-a-cena/dados.json')
+    fetch('dados.json?v='+Date.now())
         .then(response => response.json())
         .then(dados => {
             // Filtrar apenas notícias
