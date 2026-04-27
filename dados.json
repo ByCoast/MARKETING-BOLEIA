@@ -1,6 +1,75 @@
 [
   {
     "data": "27/04/2026",
+    "titulo": "4 presidentes americanos mortos e 3 feridos em atentados: novo ataque em jantar da Casa Branca reacende longa história de violência política nos EUA",
+    "desc": "Trump foi questionado sobre o aumento da violência política em uma coletiva de imprensa. \"É uma profissão perigosa\", disse sobre ser político nos EUA.",
+    "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Política",
+    "fonte": "BBC",
+    "link_real": "https://www.bbc.com/portuguese/articles/c62k21xgy41o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "O que se sabe sobre o ataque a tiros em jantar com Trump",
+    "desc": "Polícia prendeu um homem de 31 anos que vai comparecer a um tribunal nesta segunda-feira.",
+    "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Segurança",
+    "fonte": "BBC",
+    "link_real": "https://www.bbc.com/portuguese/articles/c5ylyxzqy4eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "data": "26/04/2026",
+    "titulo": "O que se sabe sobre o mistério do 9º planeta do Sistema Solar?",
+    "desc": "Alguns astrônomos suspeitam que exista um misterioso nono planeta lá fora, muito maior do que Plutão, que perdeu seu status de planeta, e talvez estejamos prestes a finalmente encontrá-lo.",
+    "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70",
+    "video": "",
+    "tipo": "noticia",
+    "categoria": "Internacional",
+    "fonte": "BBC",
+    "link_real": "https://www.bbc.com/portuguese/articles/c9wq4zexgvlo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Business Development Manager",
+    "desc": "JOB INFORMATION Work Location: Maputo Industry: Tourism Industry Education: Bachelor’s degree in Business Administration, Marketing, or related field Experience: typically 3-7 years Languages:...",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Nacional",
+    "fonte": "nJOBS",
+    "link_real": "https://njobs.co.mz/vaga/business-development-manager/",
+    "link_vaga": "https://njobs.co.mz/vaga/business-development-manager/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Gestor (a) Administrativo",
+    "desc": "Local de trabalho: Machava-BedeneCarga Horária: das 8 às 17h de segunda à sexta-feira com intervalo de 1h para o almoço.Disponibilidade: Imediata DESCRIÇÃO DA POSIÇÃO Como Gestor...",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Nacional",
+    "fonte": "nJOBS",
+    "link_real": "https://njobs.co.mz/vaga/gestor-a-administrativo/",
+    "link_vaga": "https://njobs.co.mz/vaga/gestor-a-administrativo/"
+  },
+  {
+    "data": "27/04/2026",
+    "titulo": "Oficial Técnico de EORE",
+    "desc": "A Handicap International/Humanity & Inclusion (HI) é uma organização internacional de solidariedade, independente e imparcial, que intervém em situações de pobreza e...",
+    "img": "https://njobs.co.mz/wp-content/uploads/2024/08/nJOBS_.png",
+    "video": "",
+    "tipo": "vaga",
+    "categoria": "Nacional",
+    "fonte": "nJOBS",
+    "link_real": "https://njobs.co.mz/vaga/oficial-tecnico-de-eore/",
+    "link_vaga": "https://njobs.co.mz/vaga/oficial-tecnico-de-eore/"
+  },
+  {
+    "data": "27/04/2026",
     "titulo": "Trump diz que não estava preocupado durante ataque em jantar",
     "desc": "Segundo o procurador-geral interino dos EUA, Todd Blanche, escritos atribuídos ao suspeito indicam que ele queria atacar funcionários do governo Trump.",
     "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70",
