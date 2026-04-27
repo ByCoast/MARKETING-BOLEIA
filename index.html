@@ -786,7 +786,7 @@ async function carregar(){
     document.getElementById('txt-marquee').textContent='🔴 '+dadosBase.slice(-5).reverse().map(i=>i.titulo).join('  ·  ');
 
     // Mostrar destaque automático — última notícia publicada
-    const noticiasOrdenadas=[...dadosBase.filter(i=>i.tipo==='noticia')].sort((a,b)=>{const[da,ma,aa]=a.data.split('/');const[db,mb,ab]=b.data.split('/');return new Date(ab,mb-1,db)-new Date(aa,ma-1,da);});const ultimaNoticia=noticiasOrdenadas[0]||dadosBase.slice(-1)[0];
+    const ultimaNoticia=dadosBase.filter(i=>i.tipo==='noticia').slice(-1)[0]
       ||dadosBase.slice(-1)[0];
     if(ultimaNoticia)mostrarDestaque(ultimaNoticia);
     try{const rv=await fetch('https://api.counterapi.dev/v1/nampula-e-a-cena/visitas/up');const dv=await rv.json();document.getElementById('num-visitas').textContent=Number(dv.count||0).toLocaleString('pt-PT');}
@@ -903,41 +903,5 @@ document.addEventListener('selectstart',e=>e.preventDefault());
 
 carregar();
 </script>
-
-<script>
-// Função para atualizar o destaque com a notícia mais recente
-function atualizarDestaque() {
-    fetch('dados.json?v='+Date.now())
-        .then(response => response.json())
-        .then(dados => {
-            // Filtrar apenas notícias
-            const noticias = dados.filter(item => item.tipo === 'noticia');
-            if (noticias.length > 0) {
-                // Ordenar por data (mais recente primeiro)
-                noticias.sort((a, b) => {
-                    const [da, ma, aa] = a.data.split('/');
-                    const [db, mb, ab] = b.data.split('/');
-                    return new Date(ab, mb-1, db) - new Date(aa, ma-1, da);
-                });
-                const destaque = noticias[0];
-                const destaqueDiv = document.querySelector('.destaque-conteudo') || document.querySelector('.destaque-card');
-                if (destaqueDiv) {
-                    destaqueDiv.innerHTML = `
-                        <div class="destaque-data">📅 ${destaque.data}</div>
-                        <div class="destaque-categoria">🏷️ ${destaque.categoria}</div>
-                        <div class="destaque-titulo"><a href="${destaque.link_real || '#'}" target="_blank">${destaque.titulo}</a></div>
-                        <div class="destaque-desc">${destaque.desc ? destaque.desc.substring(0, 200) + '...' : 'Clique para ler a notícia completa'}</div>
-                        <div class="destaque-fonte">📍 Fonte: ${destaque.fonte}</div>
-                        <a href="${destaque.link_real || '#'}" class="destaque-link" target="_blank">📖 LER MAIS →</a>
-                    `;
-                }
-            }
-        })
-        .catch(erro => console.error('Erro ao carregar destaque:', erro));
-}
-atualizarDestaque();
-</script>
-
 </body>
 </html>
- 
