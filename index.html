@@ -786,7 +786,7 @@ async function carregar(){
     document.getElementById('txt-marquee').textContent='🔴 '+dadosBase.slice(-5).reverse().map(i=>i.titulo).join('  ·  ');
 
     // Mostrar destaque automático — última notícia publicada
-    const ultimaNoticia=dadosBase.filter(i=>i.tipo==='noticia').slice(-1)[0]
+    const noticiasOrdenadas=[...dadosBase.filter(i=>i.tipo==='noticia')].sort((a,b)=>{const[da,ma,aa]=a.data.split('/');const[db,mb,ab]=b.data.split('/');return new Date(ab,mb-1,db)-new Date(aa,ma-1,da);});const ultimaNoticia=noticiasOrdenadas[0]||dadosBase.slice(-1)[0];
       ||dadosBase.slice(-1)[0];
     if(ultimaNoticia)mostrarDestaque(ultimaNoticia);
     try{const rv=await fetch('https://api.counterapi.dev/v1/nampula-e-a-cena/visitas/up');const dv=await rv.json();document.getElementById('num-visitas').textContent=Number(dv.count||0).toLocaleString('pt-PT');}
