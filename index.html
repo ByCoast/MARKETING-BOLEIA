@@ -654,6 +654,36 @@ function mudarTela(id){document.querySelectorAll('.tela').forEach(t=>t.classList
 // ACCORDION
 function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.exp-ic');const open=!!c.style.maxHeight;c.style.maxHeight=open?null:c.scrollHeight+'px';if(ic){ic.style.transform=open?'':'rotate(180deg)';ic.style.transition='.3s';}}
 
+// BUILD CARD
+function buildCard(item,i){
+  const cls=item.tipo==='vaga'?'item-vaga':item.tipo==='bolada'?'item-bolada':'';
+  const cat=item.categoria||item.tipo;
+  const thumb=item.video
+    ?`<div class="c-thumb" style="display:flex;align-items:center;justify-content:center;background:#0d0d0d;"><i class="fas fa-play-circle" style="font-size:48px;color:rgba(255,255,255,.45);"></i><span class="c-tag">${cat}</span></div>`
+    :`<div class="c-thumb"><img src="${item.img}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70'"><span class="c-tag">${cat}</span><span class="c-date-overlay">${item.data||''}</span></div>`;
+  const body=item.video?`<video controls style="width:100%;margin-bottom:14px;"><source src="${item.video}" type="video/mp4"></video>`:'';
+  return`<article class="card ${cls}" style="animation-delay:${i*.07}s" itemscope itemtype="https://schema.org/Article">
+    <div onclick="toggleAc(this)" class="faq-header">
+      ${thumb}
+      <div class="c-body">
+        <span class="c-cat">${cat}</span>
+        <h3 class="c-title" itemprop="headline">${item.titulo}</h3>
+        <div class="c-footer">
+          <time class="c-time" itemprop="datePublished">${item.data||''}</time>
+          <span class="c-read">Ler <i class="fas fa-chevron-down exp-ic" style="font-size:9px;transition:.3s;"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="faq-content">
+      <div class="faq-body">
+        ${body}
+        <p class="art-body" itemprop="articleBody">${item.desc}</p>
+        ${item.link_vaga?`<a href="${item.link_vaga}" target="_blank" class="btn-apply"><i class="fas fa-bolt"></i> Candidatar Agora</a>`:''}
+        <a href="https://wa.me/?text=*${encodeURIComponent('Vê isto no Nampula é a Cena:')}* ${encodeURIComponent(item.titulo)}" target="_blank" class="btn-share"><i class="fab fa-whatsapp"></i> Partilhar</a>
+      </div>
+    </div>
+  </article>`;
+}
 
 function renderFeed(id,lista,max){
   const el=document.getElementById(id);if(!el)return;
