@@ -816,7 +816,7 @@ function buildCard(item,i){
     <div class="faq-content">
       <div class="faq-body">
         ${body}
-        <p class="art-body" itemprop="articleBody">${item.desc}</p>
+        <p class="art-body" itemprop="articleBody">${formatarDesc(item.desc)}</p>
         ${item.link_vaga?`<a href="${item.link_vaga}" target="_blank" class="btn-apply"><i class="fas fa-bolt"></i> Candidatar Agora</a>`:''}
         <a href="https://wa.me/?text=*${encodeURIComponent('Vê isto no Nampula é a Cena:')}* ${encodeURIComponent(item.titulo)}" target="_blank" class="btn-share"><i class="fab fa-whatsapp"></i> Partilhar</a>
       </div>
