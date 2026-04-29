@@ -1,0 +1,32 @@
+[
+  {
+    "data": "15/04/2026",
+    "titulo": "C\u00f3lera em Mo\u00e7ambique: 150 casos na \u00faltima semana com acumulado de 8.500 desde setembro",
+    "desc": "A Direc\u00e7\u00e3o Nacional de Sa\u00fade P\u00fablica registou 150 novos casos de c\u00f3lera na \u00faltima semana, elevando o acumulado para 8.523 casos desde 3 de Setembro de 2025, dos quais 3.767 registados na prov\u00edncia de Nampula. Nas \u00faltimas 24 horas foram confirmados 19 novos casos, com 30 pessoas internadas. A taxa de letalidade mant\u00e9m-se em 1%, sem registo de \u00f3bitos h\u00e1 mais de um m\u00eas. As autoridades mo\u00e7ambicanas administraram uma segunda dose de vacina contra a c\u00f3lera a 3,5 milh\u00f5es de pessoas em nove distritos das prov\u00edncias de Sofala, Tete, Nampula e Cabo Delgado, entre 3 e 9 de Abril.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "video": "",
+    "tipo": "bolada",
+    "categoria": "Sa\u00fade",
+    "link_real": "https://observador.pt/2026/04/14/mocambique-com-150-casos-de-colera-na-ultima-semana-mas-sem-obitos/"
+  },
+  {
+    "data": "11/04/2026",
+    "titulo": "Greve dos profissionais de sa\u00fade entra na terceira semana com impacto crescente nos hospitais",
+    "desc": "A greve dos profissionais de sa\u00fade, convocada pela Associa\u00e7\u00e3o dos Profissionais de Sa\u00fade de Mo\u00e7ambique (APSUSM), entrou na sua terceira semana consecutiva, com um impacto crescente nos hospitais centrais e provinciais. Relatos d\u00e3o conta de filas enormes nas urg\u00eancias, cirurgias adiadas e sobrelota\u00e7\u00e3o nas enfermarias. O governo, que classifica a greve como 'ilegal', mant\u00e9m-se irredut\u00edvel e afirma que n\u00e3o pode atender \u00e0s exig\u00eancias salariais dos grevistas devido \u00e0s restri\u00e7\u00f5es or\u00e7amentais. A Ordem dos M\u00e9dicos de Mo\u00e7ambique apelou ao di\u00e1logo urgente entre as partes, alertando para o risco de 'colapso total do Sistema Nacional de Sa\u00fade'.",
+    "img": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=600",
+    "video": "",
+    "tipo": "bolada",
+    "categoria": "Sa\u00fade",
+    "link_real": "https://aimnews.org/2026/03/15/greve-profissionais-saude-mocambique/"
+  },
+  {
+    "data": "07/04/2026",
+    "titulo": "Hospital Central de Nampula tem novo director-geral",
+    "desc": "O Hospital Central de Nampula (HCN), a maior unidade sanit\u00e1ria da regi\u00e3o norte de Mo\u00e7ambique, tem um novo director-geral. Frederico Jo\u00e3o Sebasti\u00e3o foi empossado no cargo pelo Secret\u00e1rio de Estado da prov\u00edncia, Pl\u00e1cido Pereira. Na cerim\u00f3nia de investidura, o secret\u00e1rio apelou a Sebasti\u00e3o que concentre os esfor\u00e7os no combate \u00e0 corrup\u00e7\u00e3o e na promo\u00e7\u00e3o de um atendimento humanizado aos pacientes, destacando tamb\u00e9m a import\u00e2ncia da forma\u00e7\u00e3o cont\u00ednua dos m\u00e9dicos especialistas. O novo director comprometeu-se a formular estrat\u00e9gias para responder \u00e0s necessidades dos pacientes e profissionais de sa\u00fade.",
+    "img": "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=600",
+    "video": "",
+    "tipo": "bolada",
+    "categoria": "Sa\u00fade",
+    "link_real": "https://noticias.mmo.co.mz/2026/04/hospital-central-de-nampula-tem-novo-director-geral.html"
+  }
+]
