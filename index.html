@@ -152,10 +152,7 @@ header{background:var(--ink);border-bottom:2px solid var(--red);position:sticky;
 .search-empty{padding:20px;text-align:center;font-size:12px;color:#555;font-family:'Outfit',sans-serif;letter-spacing:1px;}
 
 /* ─── DESTAQUE ─── */
-.destaque-wrap{
-  background:var(--ink);
-  padding:0 20px 24px;
-}
+.destaque-wrap{background:var(--ink);padding:0 20px 24px;}
 .destaque-tag{
   max-width:1280px;margin:0 auto;
   padding:12px 0 10px;
@@ -164,17 +161,10 @@ header{background:var(--ink);border-bottom:2px solid var(--red);position:sticky;
   color:var(--red);display:flex;align-items:center;gap:8px;
   border-bottom:1px solid rgba(255,255,255,.05);margin-bottom:16px;
 }
-.destaque-inner{
-  max-width:1280px;margin:0 auto;
-  display:grid;grid-template-columns:1fr;gap:0;
-  background:rgba(255,255,255,.03);
-  border:1px solid rgba(255,255,255,.06);
-  overflow:hidden;cursor:pointer;
-  transition:border-color .25s;
-}
+.destaque-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr;overflow:hidden;cursor:pointer;border-radius:8px;position:relative;min-height:280px;border:1px solid rgba(255,255,255,.08);transition:border-color .25s;}
 .destaque-inner:hover{border-color:rgba(200,32,43,.4);}
 @media(min-width:640px){
-  .destaque-inner{grid-template-columns:1.4fr 1fr;}
+  .destaque-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr;overflow:hidden;cursor:pointer;border-radius:8px;position:relative;min-height:280px;border:1px solid rgba(255,255,255,.08);transition:border-color .25s;}
 }
 .destaque-img-wrap{
   position:relative;height:220px;overflow:hidden;background:#111;
@@ -393,6 +383,68 @@ footer{background:var(--ink);color:var(--white);margin-top:auto;position:relativ
 .art-lead{font-size:15px;font-weight:600;color:var(--txt);border-left:3px solid var(--red);padding-left:14px;margin-bottom:18px;line-height:1.7;}
 .art-fonte{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border-light);padding-top:12px;width:100%;}
 .art-fonte i{color:var(--red);}
+
+/* ── DESTAQUE COM IMAGEM DE FUNDO ── */
+.destaque-inner::before{
+  content:'';
+  position:absolute;inset:0;
+  background-image:var(--dest-img,none);
+  background-size:cover;
+  background-position:center;
+  filter:brightness(.35) saturate(1.2);
+  transition:filter .4s;
+  z-index:0;
+}
+.destaque-inner:hover::before{filter:brightness(.28) saturate(1.4);}
+.destaque-inner::after{
+  content:'';
+  position:absolute;inset:0;
+  background:linear-gradient(
+    135deg,
+    rgba(200,32,43,.35) 0%,
+    rgba(10,10,15,.85) 60%,
+    rgba(10,10,15,.95) 100%
+  );
+  z-index:1;
+}
+.destaque-img-wrap{display:none;}
+.destaque-body{
+  padding:28px 24px;
+  position:relative;z-index:2;
+  display:flex;flex-direction:column;justify-content:center;
+  min-height:280px;
+}
+.destaque-data{
+  font-family:'Outfit',sans-serif;font-size:9px;letter-spacing:2.5px;
+  text-transform:uppercase;color:rgba(255,255,255,.45);
+  margin-bottom:12px;display:block;
+}
+.destaque-titulo{
+  font-family:'Oswald','Outfit',sans-serif;
+  font-size:clamp(20px,4vw,30px);
+  font-weight:600;letter-spacing:.5px;
+  color:#fff;line-height:1.2;margin-bottom:14px;
+  text-shadow:0 2px 12px rgba(0,0,0,.6);
+}
+.destaque-desc{
+  font-size:13px;color:rgba(255,255,255,.6);
+  line-height:1.7;margin-bottom:20px;
+  display:-webkit-box;-webkit-line-clamp:3;
+  -webkit-box-orient:vertical;overflow:hidden;
+}
+.destaque-ler{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--red);color:#fff;
+  border:none;padding:11px 20px;cursor:pointer;
+  font-family:'Outfit',sans-serif;font-weight:700;
+  font-size:10px;letter-spacing:2px;text-transform:uppercase;
+  border-radius:3px;transition:all .2s;align-self:flex-start;
+}
+.destaque-ler:hover{background:var(--red2);transform:translateY(-2px);}
+@media(min-width:640px){
+  .destaque-inner{min-height:300px;}
+  .destaque-titulo{font-size:clamp(22px,3.5vw,32px);}
+}
 </style>
 </head>
 <body data-theme="light">
@@ -936,21 +988,36 @@ document.getElementById('search-input').addEventListener('keydown',e=>{
 // ══ DESTAQUE AUTOMÁTICO ══
 function mostrarDestaque(item){
   const wrap=document.getElementById('destaque-wrap');
-  document.getElementById('destaque-img').src=item.img||'';
+  const inner=document.getElementById('destaque-inner');
+
+  // Aplicar imagem como fundo via CSS custom property
+  if(item.img && item.img.startsWith('http')){
+    inner.style.setProperty('--dest-img', `url('${item.img}')`);
+  } else {
+    const cats={
+      'Tecnologia':'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=70',
+      'Economia':'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=70',
+      'Saúde':'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=70',
+      'Política':'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=70',
+      'Internacional':'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=70',
+      'Emprego':'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=70',
+      'Tecnologia':'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=70',
+    };
+    const fb=cats[item.categoria]||'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=70';
+    inner.style.setProperty('--dest-img', `url('${fb}')`);
+  }
+
   document.getElementById('destaque-cat').textContent=item.categoria||item.tipo;
   document.getElementById('destaque-data').textContent=item.data||'';
   document.getElementById('destaque-titulo').textContent=item.titulo;
-  document.getElementById('destaque-desc').textContent=(item.desc||'').substring(0,160)+'...';
+  const frasesDest=(item.desc||'').match(/[^.!?]+[.!?]+/g)||[];
+  const resumo=frasesDest.slice(0,2).join(' ').trim()||((item.desc||'').substring(0,160));
+  document.getElementById('destaque-desc').textContent=resumo;
   wrap.style.display='block';
-  // ao clicar "Ler Mais" abre o card na feed
   document.getElementById('destaque-btn').onclick=()=>{
-    // muda tab para o tipo correcto e faz scroll para o feed
     const tab=document.querySelector(`.tab[data-tipo="${item.tipo}"]`);
     if(tab)mudarFeed(tab);
     setTimeout(()=>window.scrollTo({top:document.getElementById('feed-home').offsetTop-80,behavior:'smooth'}),300);
-  };
-  document.getElementById('destaque-inner').onclick=function(e){
-    if(!e.target.closest('.destaque-ler'))return;
   };
 }
 
