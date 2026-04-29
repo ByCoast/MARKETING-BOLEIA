@@ -387,32 +387,6 @@ footer{background:var(--ink);color:var(--white);margin-top:auto;position:relativ
 #num-visitas{color:var(--gold);font-weight:700;}
 .back-top{position:absolute;top:-21px;right:28px;width:42px;height:42px;background:var(--red);display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;cursor:pointer;transition:all .22s;box-shadow:0 4px 20px rgba(200,32,43,.5);}
 .back-top:hover{background:var(--gold2);color:var(--ink);}
-
-/* DESTAQUE COM IMAGEM DE FUNDO */
-.destaque-inner::before{
-  content:'';position:absolute;inset:0;
-  background-image:var(--dest-img,none);
-  background-size:cover;background-position:center;
-  filter:brightness(.35);z-index:0;
-}
-.destaque-inner::after{
-  content:'';position:absolute;inset:0;
-  background:linear-gradient(135deg,rgba(200,32,43,.3) 0%,rgba(10,10,15,.85) 80%);
-  z-index:1;
-}
-.destaque-img-wrap{display:none;}
-.destaque-body{position:relative;z-index:2;padding:28px 24px;min-height:260px;}
-.destaque-titulo{font-family:'Oswald',sans-serif;font-size:clamp(20px,4vw,30px);color:#fff;text-shadow:0 1px 10px rgba(0,0,0,.5);}
-.destaque-desc{color:rgba(255,255,255,.75);}
-.destaque-ler{background:var(--red);color:#fff;border:none;padding:11px 22px;cursor:pointer;}
-.destaque-ler:hover{background:var(--red2);}
-
-
-.art-body p{margin-bottom:14px;line-height:1.8;}
-.art-lead{font-size:15px;font-weight:600;border-left:3px solid var(--red);padding-left:14px;margin-bottom:18px;}
-.art-fonte{display:flex;align-items:center;gap:6px;margin-top:16px;font-size:10px;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border-light);padding-top:12px;}
-.art-fonte i{color:var(--red);}
-
 </style>
 </head>
 <body data-theme="light">
@@ -681,52 +655,6 @@ function mudarTela(id){document.querySelectorAll('.tela').forEach(t=>t.classList
 function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.exp-ic');const open=!!c.style.maxHeight;c.style.maxHeight=open?null:c.scrollHeight+'px';if(ic){ic.style.transform=open?'':'rotate(180deg)';ic.style.transition='.3s';}}
 
 // BUILD CARD
-
-// IMAGENS FALLBACK POR CATEGORIA
-const IMG_CAT = {
-  'Tecnologia':    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=70',
-  'Economia':      'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=70',
-  'Saúde':         'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=70',
-  'Política':      'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&q=70',
-  'Educação':      'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=70',
-  'Segurança':     'https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=600&q=70',
-  'Desporto':      'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&q=70',
-  'Internacional': 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=70',
-  'Ambiente':      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=600&q=70',
-  'Emprego':       'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70',
-  'Sociedade':     'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=70',
-  'Nacional':      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=70',
-};
-function imgFallback(item){
-  return IMG_CAT[item.categoria] || IMG_CAT['Nacional'] || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=70';
-}
-
-
-// FORMATAR DESCRIÇÃO EM PARÁGRAFOS
-function formatarDesc(texto){
-  if(!texto || texto.length < 10) return '<p>Clique para ler mais.</p>';
-  texto = texto.replace(/\s+/g, ' ').trim();
-  const frases = texto.match(/[^.!?…]+[.!?…]+/g) || [texto];
-  const paragrafos = [];
-  let grupo = [];
-  frases.forEach((f, i) => {
-    grupo.push(f.trim());
-    if(grupo.length >= 2 || i === frases.length - 1){
-      paragrafos.push(grupo.join(' '));
-      grupo = [];
-    }
-  });
-  let html = '';
-  if(paragrafos.length > 0){
-    const lead = paragrafos.shift();
-    html += `<p class="art-lead">${lead}</p>`;
-  }
-  paragrafos.forEach(p => {
-    if(p.trim().length > 10) html += `<p>${p.trim()}</p>`;
-  });
-  return html || `<p>${texto}</p>`;
-}
-
 function buildCard(item,i){
   const cls=item.tipo==='vaga'?'item-vaga':item.tipo==='bolada'?'item-bolada':'';
   const cat=item.categoria||item.tipo;
@@ -764,29 +692,80 @@ function renderFeed(id,lista,max){
   el.innerHTML=items.map((it,i)=>buildCard(it,i)).join('');
 }
 
-function mudarFeed(tab){
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  tab.classList.add('active');
-  tipoAtivo=tab.getAttribute('data-tipo');
-  actualizarFiltrosHome();
-  if(tipoAtivo==='noticia'){
-    renderFeed('feed-home', dadosBase.filter(i=>i.tipo!=='vaga'));
-  } else {
-    renderFeed('feed-home', dadosBase.filter(i=>i.tipo===tipoAtivo));
-  }
+function mudarFeed(tab){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));tab.classList.add('active');tipoAtivo=tab.getAttribute('data-tipo');actualizarFiltrosHome();renderFeed('feed-home',dadosBase.filter(i=>i.tipo===tipoAtivo),9);}
+
+function actualizarFiltrosHome(){
+  const el=document.getElementById('filtros-home');if(!el)return;
+  const cats=[...new Set(dadosBase.filter(i=>i.tipo===tipoAtivo&&i.categoria).map(i=>i.categoria))];
+  el.innerHTML=`<button class="btn-f active" onclick="filtrarHome('Tudo',this)">Tudo</button>`+cats.map(c=>`<button class="btn-f" onclick="filtrarHome('${c}',this)">${c}</button>`).join('');
 }
 
-function filtrarHome(cat,btn){
-  btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  if(tipoAtivo==='noticia'){
-    const base = cat==='Tudo'
-      ? dadosBase.filter(i=>i.tipo!=='vaga')
-      : dadosBase.filter(i=>i.tipo===tipoAtivo && i.categoria===cat);
-    renderFeed('feed-home', base);
-  } else {
-    renderFeed('feed-home', dadosBase.filter(i=>i.tipo===tipoAtivo && (cat==='Tudo'||i.categoria===cat)));
-  }
+function filtrarHome(cat,btn){btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderFeed('feed-home',dadosBase.filter(i=>i.tipo===tipoAtivo&&(cat==='Tudo'||i.categoria===cat)),9);}
+function filtrar(tipo,cat,btn){btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderFeed('feed-'+tipo,dadosBase.filter(i=>i.tipo===tipo&&(cat==='Tudo'||i.categoria===cat)));}
+
+// NEWSLETTER
+function subscrever(){const v=document.getElementById('email-user').value;if(v.includes('@')){alert('Obrigado! '+v+' registado com sucesso.');document.getElementById('email-user').value='';}else alert('Por favor insira um e-mail válido.');}
+function subscreverModal(){const v=document.getElementById('nl-email').value;if(v.includes('@')){alert('Obrigado! '+v+' registado com sucesso.');document.getElementById('nl-email').value='';fecharNL();}else alert('Por favor insira um e-mail válido.');}
+function abrirNL(){document.getElementById('modal-nl').style.display='flex';document.getElementById('dropdown').style.display='none';}
+function fecharNL(){document.getElementById('modal-nl').style.display='none';}
+
+// MODAIS
+function abrirModal(tipo){
+  if(tipo==='suporte'){document.getElementById('modal-sup').style.display='flex';return;}
+  const titles={sobre:'Sobre Nós',privacidade:'Política de Privacidade',termos:'Termos de Uso'};
+  document.getElementById('m-title').textContent=titles[tipo]||'Info';
+  const conts={
+    sobre:`<h3>Quem Somos</h3>
+    <p>O <strong>Nampula é a Cena</strong> é um portal de notícias e oportunidades fundado em 2026 com a missão de informar, conectar e empoderar a população da província de Nampula e de todo o Moçambique. Acreditamos que informação de qualidade e acesso a oportunidades são ferramentas essenciais para o desenvolvimento social e económico.</p>
+    <h3>Nossa Missão</h3>
+    <p>Fornecer informação actualizada, verificada e relevante sobre os principais acontecimentos em Nampula e no país, com especial enfoque em:</p>
+    <ul>
+      <li>📌 Notícias locais e nacionais com rigor jornalístico</li>
+      <li>💼 Vagas de emprego verificadas e oportunidades de carreira</li>
+      <li>🔥 Informação sobre o mercado negro e inovações tecnológicas</li>
+      <li>🌍 Acontecimentos internacionais com impacto em Moçambique</li>
+    </ul>
+    <h3>Compromisso Editorial</h3>
+    <p>No Nampula é a Cena, cada notícia é cuidadosamente verificada antes da publicação. Priorizamos fontes oficiais, testemunhos directos e cruzamento de informações para garantir que o nosso público recebe apenas conteúdo de confiança. As nossas vagas de emprego são recolhidas directamente dos sites oficiais das empresas e organizações, assegurando que os candidatos não sejam enganados por falsas promessas.</p>
+    <h3>Transparência</h3>
+    <p>Este é um projecto independente, mantido com recursos próprios e financiado por parcerias transparentes e anúncios responsáveis. Não aceitamos qualquer tipo de conteúdo pago que não esteja devidamente identificado como publicidade, e mantemos total independência editorial.</p>
+    <h3>Reconhecimento</h3>
+    <p>O Nampula é a Cena orgulha-se de ser reconhecido como uma fonte confiável de informação na região norte de Moçambique, servindo diariamente milhares de leitores que buscam conteúdo de qualidade e oportunidades reais.</p>
+    <h3>Localização & Cobertura</h3>
+    <div class="m-loc-block"><i class="fas fa-map-marker-alt"></i><div><strong>Nampula, Moçambique</strong><span>Cobertura: Nampula · Cabo Delgado · Niassa · Nacional</span></div></div>
+    <div class="author-sig"><strong>Constantino Paulo</strong><small>Fundador & Editor-Chefe · Empreendedor Digital e Programação</small><small>Última Actualização: 11 de Abril de 2026</small></div>`,
+
+    privacidade:`<h3>1. Informações que Recolhemos</h3>
+    <p><strong>1.1 Dados de navegação:</strong> Através do Google Analytics, recolhemos informações anónimas como páginas visitadas, tempo de permanência e localização aproximada, apenas para melhorarmos a experiência do utilizador. Não identificamos individualmente os visitantes.</p>
+    <p><strong>1.2 Dados fornecidos voluntariamente:</strong> Quando subscreve a nossa newsletter, recolhemos o seu e-mail exclusivamente para o envio de notificações sobre novas vagas e notícias. Nunca partilhamos estes dados com terceiros.</p>
+    <h3>2. Proteção de Dados</h3>
+    <p>Todos os dados são armazenados em servidores seguros com criptografia de ponta a ponta. Apenas o fundador, <strong>Constantino Paulo</strong>, tem acesso à base de dados de e-mails, e compromete-se a nunca vender, alugar ou partilhar estas informações.</p>
+    <h3>3. Transparência Financeira</h3>
+    <p>O Nampula é a Cena é financiado através de:</p>
+    <ul>
+      <li>✅ Anúncios contextuais do Google AdSense</li>
+      <li>✅ Parcerias com empresas locais (devidamente identificadas como "Conteúdo Patrocinado")</li>
+      <li>✅ Contribuições voluntárias de leitores</li>
+    </ul>
+    <p>Não aceitamos qualquer tipo de pagamento para publicação de notícias, garantindo total independência editorial.</p>
+    <h3>4. Direitos do Utilizador</h3>
+    <p>Pode solicitar a qualquer momento a remoção dos seus dados da nossa base entrando em contacto através do e-mail abaixo. O processo é gratuito e será realizado em até 5 dias úteis.</p>
+    <h3>5. Cookies</h3>
+    <p>Utilizamos cookies essenciais para o funcionamento do site e cookies analíticos para entender o comportamento do público. Ao continuar a navegar, concorda com esta utilização.</p>
+    <h3>6. Compromisso Anticorrupção</h3>
+    <p>O Nampula é a Cena compromete-se a nunca publicar conteúdos pagos como se fossem notícias, a nunca aceitar subornos para manipular informações, e a sempre identificar claramente qualquer conteúdo publicitário. Acreditamos que a credibilidade é o nosso maior património.</p>
+    <div class="author-sig"><strong>Constantino Paulo</strong><small>Fundador e Responsável pela Proteção de Dados</small><small>Última actualização: 11 de Abril de 2026</small></div>`,
+
+    termos:`<h3>1. Aceitação dos Termos</h3>
+    <p>Ao aceder ao portal Nampula é a Cena, concorda em cumprir estes termos de uso. Se não concordar, por favor não utilize o site.</p>
+    <h3>2. Uso do Conteúdo</h3>
+    <p>Todo o conteúdo publicado é protegido por direitos autorais. Pode partilhar os links livremente, mas não copie ou reproduza o conteúdo sem autorização expressa do autor.</p>
+    <h3>3. Veracidade das Informações</h3>
+    <p>As vagas de emprego são recolhidas de fontes oficiais. Recomendamos que os candidatos verifiquem sempre a autenticidade das oportunidades. O portal não se responsabiliza por eventuais fraudes externas.</p>
+    <div class="author-sig"><strong>Constantino Paulo</strong><small>Editor Responsável</small></div>`
+  };
+  document.getElementById('m-body').innerHTML=conts[tipo]||'';
+  document.getElementById('modal-g').style.display='flex';
 }
 function fecharModal(){document.getElementById('modal-g').style.display='none';}
 
