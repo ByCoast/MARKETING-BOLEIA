@@ -787,15 +787,44 @@ function renderFeed(id,lista,max){
   el.innerHTML=items.map((it,i)=>buildCard(it,i)).join('');
 }
 
-function mudarFeed(tab){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));tab.classList.add('active');tipoAtivo=tab.getAttribute('data-tipo');actualizarFiltrosHome();renderFeed('feed-home',dadosBase.filter(i=>i.tipo===tipoAtivo),9);}
+function mudarFeed(tab){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  tab.classList.add('active');
+  tipoAtivo=tab.getAttribute('data-tipo');
+  actualizarFiltrosHome();
+  // Tudo na tab Notícias mostra mix (noticia + bolada, sem vaga)
+  if(tipoAtivo==='noticia'){
+    renderFeed('feed-home', dadosBase.filter(i=>i.tipo!=='vaga'));
+  } else {
+    renderFeed('feed-home', dadosBase.filter(i=>i.tipo===tipoAtivo));
+  }
+}
 
 function actualizarFiltrosHome(){
   const el=document.getElementById('filtros-home');if(!el)return;
-  const cats=[...new Set(dadosBase.filter(i=>i.tipo===tipoAtivo&&i.categoria).map(i=>i.categoria))];
-  el.innerHTML=`<button class="btn-f active" onclick="filtrarHome('Tudo',this)">Tudo</button>`+cats.map(c=>`<button class="btn-f" onclick="filtrarHome('${c}',this)">${c}</button>`).join('');
+  // Categorias só de noticias (não vagas) para o mix
+  const base = tipoAtivo==='noticia'
+    ? dadosBase.filter(i=>i.tipo!=='vaga')
+    : dadosBase.filter(i=>i.tipo===tipoAtivo);
+  const cats=[...new Set(base.filter(i=>i.categoria).map(i=>i.categoria))];
+  el.innerHTML=`<button class="btn-f active" onclick="filtrarHome('Tudo',this)">Tudo</button>`
+    +cats.map(c=>`<button class="btn-f" onclick="filtrarHome('${c}',this)">${c}</button>`).join('');
+}',this)">${c}</button>`).join('');
 }
 
-function filtrarHome(cat,btn){btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderFeed('feed-home',dadosBase.filter(i=>i.tipo===tipoAtivo&&(cat==='Tudo'||i.categoria===cat)),9);}
+function filtrarHome(cat,btn){
+  btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  if(tipoAtivo==='noticia'){
+    // Tudo = mix de noticia + bolada; categoria filtra só noticias
+    const base = cat==='Tudo'
+      ? dadosBase.filter(i=>i.tipo!=='vaga')
+      : dadosBase.filter(i=>i.tipo===tipoAtivo && i.categoria===cat);
+    renderFeed('feed-home', base);
+  } else {
+    renderFeed('feed-home', dadosBase.filter(i=>i.tipo===tipoAtivo&&(cat==='Tudo'||i.categoria===cat)));
+  }
+}
 function filtrar(tipo,cat,btn){btn.parentElement.querySelectorAll('.btn-f').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderFeed('feed-'+tipo,dadosBase.filter(i=>i.tipo===tipo&&(cat==='Tudo'||i.categoria===cat)));}
 
 // NEWSLETTER
@@ -877,7 +906,7 @@ async function carregar(){
       }
     });
     actualizarFiltrosHome();
-    renderFeed('feed-home',dadosBase.filter(i=>i.tipo==='noticia'),9);
+    renderFeed('feed-home', dadosBase.filter(i=>i.tipo!=='vaga'));
     document.getElementById('txt-marquee').textContent='🔴 '+dadosBase.slice(-5).reverse().map(i=>i.titulo).join('  ·  ');
 
     // Mostrar destaque automático — última notícia publicada
