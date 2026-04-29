@@ -280,7 +280,7 @@ header{background:var(--ink);border-bottom:2px solid var(--red);position:sticky;
 .faq-content{max-height:0;overflow:hidden;transition:max-height .5s ease;}
 .faq-body{padding:18px 20px 22px;border-top:1px solid var(--border-light);}
 .faq-body img,.faq-body video{width:100%;display:block;margin-bottom:14px;object-fit:cover;}
-.art-body{font-family:'Inter',sans-serif;font-size:14.5px;line-height:1.82;color:var(--txt2);text-align:justify;white-space:pre-wrap;}
+.art-body{font-family:'Inter',sans-serif;font-size:14.5px;line-height:1.9;color:var(--txt2);text-align:left;white-space:normal;word-break:break-word;}
 .btn-apply{display:block;background:var(--blue);color:#fff;text-align:center;padding:14px;text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:11px;letter-spacing:3px;text-transform:uppercase;margin-top:16px;transition:background .2s,transform .2s;}
 .btn-apply:hover{background:#0f2240;transform:translateY(-2px);}
 .btn-share{display:flex;align-items:center;justify-content:center;gap:8px;background:#25d366;color:#fff;padding:13px;text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;margin-top:10px;transition:opacity .2s;}
@@ -387,6 +387,12 @@ footer{background:var(--ink);color:var(--white);margin-top:auto;position:relativ
 #num-visitas{color:var(--gold);font-weight:700;}
 .back-top{position:absolute;top:-21px;right:28px;width:42px;height:42px;background:var(--red);display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;cursor:pointer;transition:all .22s;box-shadow:0 4px 20px rgba(200,32,43,.5);}
 .back-top:hover{background:var(--gold2);color:var(--ink);}
+
+.art-body p{margin-bottom:14px;line-height:1.9;}
+.art-body p:last-child{margin-bottom:0;}
+.art-lead{font-size:15px;font-weight:600;color:var(--txt);border-left:3px solid var(--red);padding-left:14px;margin-bottom:18px;line-height:1.7;}
+.art-fonte{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border-light);padding-top:12px;width:100%;}
+.art-fonte i{color:var(--red);}
 </style>
 </head>
 <body data-theme="light">
@@ -655,6 +661,30 @@ function mudarTela(id){document.querySelectorAll('.tela').forEach(t=>t.classList
 function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.exp-ic');const open=!!c.style.maxHeight;c.style.maxHeight=open?null:c.scrollHeight+'px';if(ic){ic.style.transform=open?'':'rotate(180deg)';ic.style.transition='.3s';}}
 
 // BUILD CARD
+
+// ══ FORMATAR DESCRIÇÃO ══
+function formatarDesc(texto){
+  if(!texto||texto.length<10)return '<p>Clique para ler mais.</p>';
+  texto=texto.replace(/\s+/g,' ').trim();
+  const frases=texto.match(/[^.!?…]+[.!?…]+/g)||[texto];
+  const paragrafos=[];
+  let grupo=[];
+  frases.forEach((f,i)=>{
+    grupo.push(f.trim());
+    if(grupo.length>=2||i===frases.length-1){
+      paragrafos.push(grupo.join(' '));
+      grupo=[];
+    }
+  });
+  let h='';
+  if(paragrafos.length>0){
+    const lead=paragrafos.shift();
+    h+=`<p class="art-lead">${lead}</p>`;
+  }
+  paragrafos.forEach(p=>{if(p.trim().length>10)h+=`<p>${p.trim()}</p>`;});
+  return h||`<p>${texto}</p>`;
+}
+
 function buildCard(item,i){
   const cls=item.tipo==='vaga'?'item-vaga':item.tipo==='bolada'?'item-bolada':'';
   const cat=item.categoria||item.tipo;
@@ -677,7 +707,7 @@ function buildCard(item,i){
     <div class="faq-content">
       <div class="faq-body">
         ${body}
-        <p class="art-body" itemprop="articleBody">${item.desc}</p>
+        <p class="art-body" itemprop="articleBody">${formatarDesc(item.desc)}</p>
         ${item.link_vaga?`<a href="${item.link_vaga}" target="_blank" class="btn-apply"><i class="fas fa-bolt"></i> Candidatar Agora</a>`:''}
         <a href="https://wa.me/?text=*${encodeURIComponent('Vê isto no Nampula é a Cena:')}* ${encodeURIComponent(item.titulo)}" target="_blank" class="btn-share"><i class="fab fa-whatsapp"></i> Partilhar</a>
       </div>
