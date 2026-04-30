@@ -655,6 +655,26 @@ function mudarTela(id){document.querySelectorAll('.tela').forEach(t=>t.classList
 function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.exp-ic');const open=!!c.style.maxHeight;c.style.maxHeight=open?null:c.scrollHeight+'px';if(ic){ic.style.transform=open?'':'rotate(180deg)';ic.style.transition='.3s';}}
 
 // BUILD CARD
+
+function formatarDesc(texto){
+  if(!texto || texto.length < 10) return '<p>Clique para ler mais.</p>';
+  texto = texto.replace(/\s+/g, ' ').trim();
+  var frases = texto.match(/[^.!?]+[.!?]+/g) || [texto];
+  var pars = [];
+  for(var i = 0; i < frases.length; i += 2){
+    var grupo = frases[i];
+    if(frases[i+1]) grupo += ' ' + frases[i+1];
+    if(grupo.length > 15) pars.push(grupo);
+  }
+  if(pars.length === 0) return '<p>' + texto + '</p>';
+  var h = '<p class="art-lead">' + pars[0] + '</p>';
+  for(var i = 1; i < pars.length; i++){
+    h += '<p>' + pars[i] + '</p>';
+  }
+  return h;
+}
+
+
 function buildCard(item,i){
   const cls=item.tipo==='vaga'?'item-vaga':item.tipo==='bolada'?'item-bolada':'';
   const cat=item.categoria||item.tipo;
@@ -677,7 +697,7 @@ function buildCard(item,i){
     <div class="faq-content">
       <div class="faq-body">
         ${body}
-        <p class="art-body" itemprop="articleBody">${item.desc}</p>
+        <p class="art-body" itemprop="articleBody">${formatarDesc(item.desc)}</p>
         ${item.link_vaga?`<a href="${item.link_vaga}" target="_blank" class="btn-apply"><i class="fas fa-bolt"></i> Candidatar Agora</a>`:''}
         <a href="https://wa.me/?text=*${encodeURIComponent('Vê isto no Nampula é a Cena:')}* ${encodeURIComponent(item.titulo)}" target="_blank" class="btn-share"><i class="fab fa-whatsapp"></i> Partilhar</a>
       </div>
