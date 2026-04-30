@@ -715,18 +715,25 @@ function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.
 // BUILD CARD
 
 // ══ FORMATAR DESCRIÇÃO ══
+
 function formatarDesc(texto){
-  if(!texto||texto.length<10)return '<p>Clique para ler mais.</p>';
-  texto=texto.replace(/\s+/g,' ').trim();
-  const frases=texto.match(/[^.!?…]+[.!?…]+/g)||[texto];
-  const paragrafos=[];
-  let grupo=[];
-  frases.forEach((f,i)=>{
-    grupo.push(f.trim());
-    if(grupo.length>=2||i===frases.length-1){
-      paragrafos.push(grupo.join(' '));
-      grupo=[];
-    }
+  if(!texto || texto.length < 10) return '<p>Clique para ler mais.</p>';
+  texto = texto.replace(/\s+/g, ' ').trim();
+  var frases = texto.match(/[^.!?]+[.!?]+/g) || [texto];
+  var pars = [];
+  for(var i = 0; i < frases.length; i += 2){
+    var grupo = frases[i];
+    if(frases[i+1]) grupo += ' ' + frases[i+1];
+    if(grupo.length > 15) pars.push(grupo);
+  }
+  if(pars.length === 0) return '<p>' + texto + '</p>';
+  var h = '<p class="art-lead">' + pars[0] + '</p>';
+  for(var i = 1; i < pars.length; i++){
+    h += '<p>' + pars[i] + '</p>';
+  }
+  return h;
+}
+
   });
   let h='';
   if(paragrafos.length>0){
