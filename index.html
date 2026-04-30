@@ -656,6 +656,7 @@ function toggleAc(el){const c=el.nextElementSibling;const ic=el.querySelector('.
 
 // BUILD CARD
 
+
 function formatarDesc(texto){
   if(!texto || texto.length < 10) return '<p>Clique para ler mais.</p>';
   texto = texto.replace(/\s+/g, ' ').trim();
@@ -666,6 +667,14 @@ function formatarDesc(texto){
     if(frases[i+1]) grupo += ' ' + frases[i+1];
     if(grupo.length > 15) pars.push(grupo);
   }
+  if(pars.length === 0) return '<p>' + texto + '</p>';
+  var h = '<p class="art-lead">' + pars[0] + '</p>';
+  for(var i = 1; i < pars.length; i++){
+    h += '<p>' + pars[i] + '</p>';
+  }
+  return h;
+}
+
   if(pars.length === 0) return '<p>' + texto + '</p>';
   var h = '<p class="art-lead">' + pars[0] + '</p>';
   for(var i = 1; i < pars.length; i++){
