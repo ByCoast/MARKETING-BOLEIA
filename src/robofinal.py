@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-robofinal.py — Robô completo v4.0
+robofinal.py — Robô completo v3.0
 Nampula é a Cena | ByCoast
 ─────────────────────────────────────────────
-Metas:
-  ✅ 800+ Notícias (Política, Economia, Sociedade, Cultura, Desporto)
-  ✅ 400+ Vagas de emprego
-  ✅ 300+ Bolada (Tecnologia e Inovação)
-  ✅ Classificação por TIPO e CATEGORIA
+Melhorias v3.0:
+  ✅ Imagens reais dos artigos
+  ✅ Categorias inteligentes (14 categorias)
+  ✅ Deduplicação por similaridade (difflib)
+  ✅ Resumo automático com IA (Claude Haiku)
+  ✅ Novas fontes: vagas + tecnologia + notícias
+  ✅ Capacidade: 1000 itens
+  ✅ Log de execução em log.txt
 """
 
 import requests
@@ -25,10 +28,10 @@ import os
 # ─────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────
-MAX_ITENS     = 2000      # Aumentado para 2000
-MAX_POR_FONTE = 40        # Aumentado para 40
+MAX_ITENS     = 1000
+MAX_POR_FONTE = 30
 TIMEOUT       = 20
-DELAY         = 0.3
+DELAY         = 0.4
 LOG_FILE      = "log.txt"
 DADOS_FILE    = "dados.json"
 
@@ -74,36 +77,6 @@ def registar_titulo(titulo):
     titulos_vistos.append(titulo.lower().strip())
 
 # ─────────────────────────────────────────────
-# DETECTAR TIPO (noticia / vaga / bolada)
-# ─────────────────────────────────────────────
-def detectar_tipo(titulo, desc, fonte=""):
-    texto = (titulo + " " + desc).lower()
-    
-    # Bolada (tecnologia, gadgets, inovação)
-    palavras_bolada = [
-        'tecnologia', 'app', 'smartphone', 'iphone', 'android', 
-        'software', 'internet', '5g', 'ia', 'inteligência artificial',
-        'gadget', 'lançamento', 'starlink', 'drone', 'laptop', 
-        'tablet', 'inovação', 'digital', 'robô', 'aplicativo',
-        'windows', 'linux', 'mac', 'computador', 'notebook',
-        'inteligencia artificial', 'chatgpt', 'openai', 'bits', 'bytes'
-    ]
-    if any(p in texto for p in palavras_bolada):
-        return "bolada"
-    
-    # Vaga (emprego, recrutamento)
-    palavras_vaga = [
-        'vaga', 'emprego', 'recruta', 'contrata', 'oportunidade',
-        'trabalho', 'estágio', 'salário', 'candidato', 'seleção',
-        'rh', 'recrutamento', 'empregos', 'contratação', 'curriculum'
-    ]
-    if any(p in texto for p in palavras_vaga) or fonte in ["nJOBS","MaisVagas","WizAndroid Emprego","VagasMoz","EmpregoMoz"]:
-        return "vaga"
-    
-    # Notícia (padrão)
-    return "noticia"
-
-# ─────────────────────────────────────────────
 # CATEGORIAS INTELIGENTES
 # ─────────────────────────────────────────────
 CATEGORIAS = {
@@ -134,8 +107,6 @@ CATEGORIAS = {
                       'pobreza','habitacao','agua','fome','migrante','refugiado'],
     "Nacional":      ['mocambique','maputo','nampula','beira','tete','quelimane',
                       'inhambane','chimoio','lichinga','pemba'],
-    "Cultura":       ['cultura','arte','musica','cinema','teatro','literatura',
-                      'pintura','escultura','dança','tradição','festival'],
 }
 
 def detectar_categoria(titulo, desc="", fonte=""):
@@ -149,22 +120,24 @@ def detectar_categoria(titulo, desc="", fonte=""):
             scores[cat] = score
     if scores:
         return max(scores, key=scores.get)
-    if fonte in ["BBC","DW","G1 Globo","SAPO","TecMundo","ITForum","Olhar Digital","Canaltech"]:
+    if fonte in ["BBC","DW","G1 Globo","SAPO","TecMundo","ITForum"]:
         return "Internacional"
-    if fonte in ["nJOBS","MaisVagas","WizAndroid Emprego","VagasMoz","EmpregoMoz","JobMoz"]:
+    if fonte in ["nJOBS","MaisVagas","WizAndroid Emprego"]:
         return "Emprego"
-    if fonte in ["ITForum","TecMundo","WizAndroid","TechMoz","StartupMoz"]:
+    if fonte in ["ITForum","TecMundo","WizAndroid"]:
         return "Tecnologia"
     return "Nacional"
 
 # ─────────────────────────────────────────────
 # RESUMO COM IA (Claude Haiku — rapido e barato)
+# Precisa de: export ANTHROPIC_API_KEY="sk-ant-..."
 # ─────────────────────────────────────────────
 def resumir_com_ia(titulo, desc_original):
     if not desc_original or len(desc_original) < 80:
         return desc_original
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
+        # Sem chave API: resumo simples por frases
         frases = re.split(r'(?<=[.!?])\s+', desc_original.strip())
         return ' '.join(frases[:3])[:450]
     try:
@@ -202,12 +175,15 @@ def resumir_com_ia(titulo, desc_original):
 # EXTRAIR IMAGEM REAL DO ARTIGO
 # ─────────────────────────────────────────────
 def extrair_imagem_real(soup, url_base, fallback):
+    # 1. og:image
     og = soup.find('meta', property='og:image')
     if og and og.get('content','').startswith('http'):
         return og['content'].strip()
+    # 2. twitter:image
     tw = soup.find('meta', attrs={'name':'twitter:image'})
     if tw and tw.get('content','').startswith('http'):
         return tw['content'].strip()
+    # 3. Primeira img grande no body
     for img_tag in soup.find_all('img'):
         src = img_tag.get('src') or img_tag.get('data-src','')
         if not src:
@@ -216,6 +192,12 @@ def extrair_imagem_real(soup, url_base, fallback):
             src = urljoin(url_base, src)
         if any(ext in src.lower() for ext in ['.jpg','.jpeg','.png','.webp']):
             if not any(x in src.lower() for x in ['logo','icon','avatar','sprite']):
+                try:
+                    w = int(str(img_tag.get('width','0')).replace('px',''))
+                    if w > 0 and w < 200:
+                        continue
+                except:
+                    pass
                 return src
     return fallback
 
@@ -227,6 +209,7 @@ def extrair_artigo(url, img_fallback=IMG_NOTICIAS):
         r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
         soup = BeautifulSoup(r.text, 'html.parser')
 
+        # Titulo
         titulo = ""
         for tag, attrs in [('h1',{}),('meta',{'property':'og:title'}),
                            ('meta',{'name':'title'}),('title',{})]:
@@ -237,6 +220,7 @@ def extrair_artigo(url, img_fallback=IMG_NOTICIAS):
                 if len(titulo) > 10:
                     break
 
+        # Descricao
         desc = ""
         for tag, attrs in [('meta',{'name':'description'}),
                            ('meta',{'property':'og:description'}),
@@ -256,8 +240,10 @@ def extrair_artigo(url, img_fallback=IMG_NOTICIAS):
             if parags:
                 desc = ' '.join(parags)[:700]
 
+        # Imagem real
         img = extrair_imagem_real(soup, url, img_fallback)
 
+        # Data
         data = datetime.now().strftime("%d/%m/%Y")
         for tag, attrs in [('meta',{'property':'article:published_time'}),
                            ('meta',{'name':'publishdate'}),
@@ -278,7 +264,7 @@ def extrair_artigo(url, img_fallback=IMG_NOTICIAS):
 # ─────────────────────────────────────────────
 # EXTRAIR VIA RSS
 # ─────────────────────────────────────────────
-def extrair_rss(nome, rss_url, tipo_padrao="noticia", fonte="", img_fallback=IMG_NOTICIAS):
+def extrair_rss(nome, rss_url, tipo="noticia", fonte="", img_fallback=IMG_NOTICIAS):
     items = []
     try:
         log(f"{nome} (RSS)...", "📡")
@@ -305,11 +291,13 @@ def extrair_rss(nome, rss_url, tipo_padrao="noticia", fonte="", img_fallback=IMG
                     desc = BeautifulSoup(el.text,'html.parser').get_text(' ').strip()[:700]
                     break
 
+            # Link
             link = ""
             link_el = entry.find('link')
             if link_el is not None:
                 link = (link_el.text or link_el.get('href','')).strip()
 
+            # Imagem — tentar enclosure, depois buscar na pagina real
             img = img_fallback
             for tag in ['enclosure',
                         '{http://search.yahoo.com/mrss/}content',
@@ -328,6 +316,7 @@ def extrair_rss(nome, rss_url, tipo_padrao="noticia", fonte="", img_fallback=IMG
                 except:
                     pass
 
+            # Data
             data = datetime.now().strftime("%d/%m/%Y")
             for tag in ['pubDate','published','{http://www.w3.org/2005/Atom}published']:
                 el = entry.find(tag)
@@ -348,22 +337,21 @@ def extrair_rss(nome, rss_url, tipo_padrao="noticia", fonte="", img_fallback=IMG
                     break
 
             desc = resumir_com_ia(titulo, desc)
-            tipo_detectado = detectar_tipo(titulo, desc, fonte or nome)
-            cat = detectar_categoria(titulo, desc, fonte or nome)
+            cat = detectar_categoria(titulo, desc, fonte)
             registar_titulo(titulo)
 
             item = {
                 "data": data, "titulo": titulo,
                 "desc": desc or "Clique para ler o artigo completo.",
                 "img": img, "video": "",
-                "tipo": tipo_detectado, "categoria": cat,
+                "tipo": tipo, "categoria": cat,
                 "fonte": fonte or nome, "link_real": link
             }
-            if tipo_detectado == "vaga":
+            if tipo == "vaga":
                 item["link_vaga"] = link
 
             items.append(item)
-            log(f"  ✅ [{tipo_detectado}/{cat}] {titulo[:40]}...")
+            log(f"  ✅ [{cat}] {titulo[:50]}...")
             time.sleep(DELAY)
 
     except Exception as e:
@@ -373,8 +361,8 @@ def extrair_rss(nome, rss_url, tipo_padrao="noticia", fonte="", img_fallback=IMG
 # ─────────────────────────────────────────────
 # EXTRAIR VIA HTML
 # ─────────────────────────────────────────────
-def extrair_html(nome, base_url, filtro_url, tipo_padrao="noticia", fonte="",
-                 img_fallback=IMG_NOTICIAS, max_links=25):
+def extrair_html(nome, base_url, filtro_url, tipo="noticia", fonte="",
+                 img_fallback=IMG_NOTICIAS, max_links=20):
     items = []
     try:
         log(f"{nome} (HTML)...", "🌐")
@@ -394,22 +382,21 @@ def extrair_html(nome, base_url, filtro_url, tipo_padrao="noticia", fonte="",
             if not titulo or len(titulo) < 12 or ja_existe(titulo):
                 continue
             desc = resumir_com_ia(titulo, desc)
-            tipo_detectado = detectar_tipo(titulo, desc, fonte or nome)
-            cat = detectar_categoria(titulo, desc, fonte or nome)
+            cat = detectar_categoria(titulo, desc, fonte)
             registar_titulo(titulo)
 
             item = {
                 "data": data, "titulo": titulo,
                 "desc": desc or "Clique para ler o artigo completo.",
                 "img": img, "video": "",
-                "tipo": tipo_detectado, "categoria": cat,
+                "tipo": tipo, "categoria": cat,
                 "fonte": fonte or nome, "link_real": link
             }
-            if tipo_detectado == "vaga":
+            if tipo == "vaga":
                 item["link_vaga"] = link
 
             items.append(item)
-            log(f"  ✅ [{tipo_detectado}/{cat}] {titulo[:40]}...")
+            log(f"  ✅ [{cat}] {titulo[:50]}...")
             time.sleep(DELAY)
 
     except Exception as e:
@@ -417,94 +404,43 @@ def extrair_html(nome, base_url, filtro_url, tipo_padrao="noticia", fonte="",
     return items
 
 # ════════════════════════════════════════════════════════════
-# TODAS AS FONTES (EXPANDIDO PARA METAS)
+# TODAS AS FONTES
 # ════════════════════════════════════════════════════════════
-
 def extrair_noticias():
-    """Fontes para atingir 800+ notícias"""
     n = []
-    
-    # Fontes internacionais
     n += extrair_rss("DW Mocambique","https://rss.dw.com/rdf/rss-pt-moc",fonte="DW")
     n += extrair_rss("BBC Portugues","https://feeds.bbci.co.uk/portuguese/rss.xml",fonte="BBC")
-    
-    # Fontes Moçambicanas
     n += extrair_html("Jornal Noticias","https://jornalnoticias.co.mz",
-        filtro_url=lambda h:'jornalnoticias.co.mz' in h and len(h.split('/'))>5,
-        fonte="Jornal Noticias")
+        filtro_url=lambda h:'jornalnoticias.co.mz' in h and len(h.split('/'))>5,fonte="Jornal Noticias",max_links=30)
     n += extrair_html("MZNews","https://mznews.co.mz/en/",
-        filtro_url=lambda h:'mznews.co.mz' in h and len(h.split('/'))>4,
-        fonte="MZNews")
-    n += extrair_html("CanalMoz","https://canalmoz.co.mz",
-        filtro_url=lambda h:'canalmoz.co.mz' in h,
-        fonte="CanalMoz")
-    n += extrair_html("Verdade","https://verdade.co.mz",
-        filtro_url=lambda h:'verdade.co.mz' in h,
-        fonte="Verdade")
-    n += extrair_html("Carta","https://cartamz.com",
-        filtro_url=lambda h:'cartamz.com' in h,
-        fonte="Carta")
-    n += extrair_html("O País","https://opais.co.mz",
-        filtro_url=lambda h:'opais.co.mz' in h,
-        fonte="O País")
-    
-    # Fontes portuguesas (com notícias internacionais)
+        filtro_url=lambda h:'mznews.co.mz' in h and len(h.split('/'))>4,fonte="MZNews",max_links=30)
     n += extrair_html("SAPO","https://sapo.pt",
-        filtro_url=lambda h:'sapo.pt' in h and '/noticias/' in h,
-        fonte="SAPO")
-    n += extrair_html("G1 Globo","https://g1.globo.com/",
-        filtro_url=lambda h:'g1.globo.com' in h and '.ghtml' in h and '/mundo/' in h,
-        fonte="G1 Globo")
-    
+        filtro_url=lambda h:'sapo.pt' in h and '/noticias/' in h,fonte="SAPO",max_links=30)
+    n += extrair_html("G1 Tecnologia","https://g1.globo.com/tecnologia/",
+        filtro_url=lambda h:'g1.globo.com/tecnologia/' in h and '.ghtml' in h,
+        fonte="G1 Globo",img_fallback=IMG_TECH,max_links=30)
     return n
 
-def extrair_bolada():
-    """Fontes para atingir 300+ bolada (tecnologia/inovação)"""
-    b = []
-    
-    # Tecnologia internacional
-    b += extrair_rss("ITForum","https://itforum.com.br/feed/",fonte="ITForum",img_fallback=IMG_TECH)
-    b += extrair_rss("TecMundo","https://rss.tecmundo.com.br/feed",fonte="TecMundo",img_fallback=IMG_TECH)
-    b += extrair_rss("Olhar Digital","https://olhardigital.com.br/feed/",fonte="Olhar Digital",img_fallback=IMG_TECH)
-    b += extrair_rss("Canaltech","https://canaltech.com.br/rss/",fonte="Canaltech",img_fallback=IMG_TECH)
-    
-    # Tecnologia Moçambicana
-    b += extrair_html("WizAndroid Tech","https://wizandroidmz.com",
+def extrair_tecnologia():
+    t = []
+    t += extrair_rss("ITForum","https://itforum.com.br/feed/",fonte="ITForum",img_fallback=IMG_TECH)
+    t += extrair_rss("TecMundo","https://rss.tecmundo.com.br/feed",fonte="TecMundo",img_fallback=IMG_TECH)
+    t += extrair_html("WizAndroid Tech","https://wizandroidmz.com",
         filtro_url=lambda h:'wizandroidmz.com' in h and len(h.split('/'))>4 and 'emprego' not in h,
-        fonte="WizAndroid",img_fallback=IMG_TECH)
-    b += extrair_html("TechMoz","https://techmoz.com",
-        filtro_url=lambda h:'techmoz.com' in h,
-        fonte="TechMoz",img_fallback=IMG_TECH)
-    b += extrair_html("StartupMoz","https://startupmoz.co.mz",
-        filtro_url=lambda h:'startupmoz.co.mz' in h,
-        fonte="StartupMoz",img_fallback=IMG_TECH)
-    
-    return b
+        fonte="WizAndroid",img_fallback=IMG_TECH,max_links=30)
+    return t
 
 def extrair_vagas():
-    """Fontes para atingir 400+ vagas"""
     v = []
-    
     v += extrair_html("nJobs","https://njobs.co.mz",
         filtro_url=lambda h:'njobs.co.mz' in h and any(x in h.lower() for x in ['vaga','job','emprego']),
-        tipo_padrao="vaga",fonte="nJOBS",img_fallback=IMG_VAGAS,max_links=30)
-    
+        tipo="vaga",fonte="nJOBS",img_fallback=IMG_VAGAS,max_links=30)
     v += extrair_html("MaisVagas","https://maisvagas.co.mz",
         filtro_url=lambda h:'maisvagas.co.mz' in h and len(h.split('/'))>4,
-        tipo_padrao="vaga",fonte="MaisVagas",img_fallback=IMG_VAGAS,max_links=30)
-    
+        tipo="vaga",fonte="MaisVagas",img_fallback=IMG_VAGAS,max_links=30)
     v += extrair_html("WizAndroid Emprego","https://wizandroidmz.com/emprego/",
         filtro_url=lambda h:'wizandroidmz.com' in h and 'emprego' in h and len(h.split('/'))>5,
-        tipo_padrao="vaga",fonte="WizAndroid Emprego",img_fallback=IMG_VAGAS,max_links=25)
-    
-    v += extrair_html("VagasMoz","https://vagasmoz.com",
-        filtro_url=lambda h:'vagasmoz.com' in h and 'vaga' in h.lower(),
-        tipo_padrao="vaga",fonte="VagasMoz",img_fallback=IMG_VAGAS,max_links=25)
-    
-    v += extrair_html("EmpregoMoz","https://empregomoz.co.mz",
-        filtro_url=lambda h:'empregomoz.co.mz' in h,
-        tipo_padrao="vaga",fonte="EmpregoMoz",img_fallback=IMG_VAGAS,max_links=25)
-    
+        tipo="vaga",fonte="WizAndroid Emprego",img_fallback=IMG_VAGAS,max_links=30)
     return v
 
 # ════════════════════════════════════════════════════════════
@@ -528,12 +464,10 @@ def git_push(n_novos):
 # ════════════════════════════════════════════════════════════
 def main():
     print("="*60)
-    print("🤖 ROBO v4.0 — Nampula e a Cena")
-    print(f"   🎯 Metas: 800+ Notícias | 400+ Vagas | 300+ Bolada")
-    print(f"   Fontes: DW · BBC · JN · MZNews · CanalMoz · Verdade")
-    print(f"   Carta · O País · SAPO · G1 · ITForum · TecMundo")
-    print(f"   Olhar Digital · Canaltech · WizAndroid · TechMoz")
-    print(f"   nJobs · MaisVagas · VagasMoz · EmpregoMoz")
+    print("🤖 ROBO v3.0 — Nampula e a Cena")
+    print(f"   Fontes: DW · BBC · Jornal Noticias · MZNews · SAPO")
+    print(f"   G1 · ITForum · TecMundo · WizAndroid")
+    print(f"   nJobs · MaisVagas · WizAndroid Emprego")
     print(f"📅 {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
     print("="*60)
 
@@ -552,8 +486,8 @@ def main():
     # Recolher
     log("\n── NOTICIAS ──────────────────────────────","📰")
     novos = extrair_noticias()
-    log("\n── BOLADA (Tecnologia/Inovação) ─────────","💻")
-    novos += extrair_bolada()
+    log("\n── TECNOLOGIA ────────────────────────────","💻")
+    novos += extrair_tecnologia()
     log("\n── VAGAS ─────────────────────────────────","💼")
     novos += extrair_vagas()
 
@@ -568,27 +502,23 @@ def main():
     with open(DADOS_FILE,'w',encoding='utf-8') as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
-    # Stats por TIPO
+    # Stats
     n_not = len([x for x in final if x.get('tipo')=='noticia'])
-    n_bol = len([x for x in final if x.get('tipo')=='bolada'])
     n_vag = len([x for x in final if x.get('tipo')=='vaga'])
-    
-    # Stats por CATEGORIA
-    cats = {}
+    cats  = {}
     for x in final:
-        c = x.get('categoria','Outros')
+        c = x.get('categoria','?')
         cats[c] = cats.get(c,0)+1
 
     print("\n"+"="*60)
-    log(f"✅ CONCLUIDO!","✅")
-    log(f"  📰 Novos recolhidos : {n_novos}")
-    log(f"  📰 Total noticias   : {n_not} (Meta: 800) → {'✅' if n_not>=800 else f'⚠️ Faltam {800-n_not}'}")
-    log(f"  💼 Total vagas      : {n_vag} (Meta: 400) → {'✅' if n_vag>=400 else f'⚠️ Faltam {400-n_vag}'}")
-    log(f"  💻 Total bolada     : {n_bol} (Meta: 300) → {'✅' if n_bol>=300 else f'⚠️ Faltam {300-n_bol}'}")
-    log(f"  📦 Total no JSON    : {len(final)}/{MAX_ITENS}")
-    log(f"\n  📊 CATEGORIAS:")
-    for cat,count in sorted(cats.items(),key=lambda x:-x[1])[:15]:
-        log(f"     {cat}: {count}")
+    log(f"CONCLUIDO!","✅")
+    log(f"  Novos recolhidos : {n_novos}")
+    log(f"  Total noticias   : {n_not}")
+    log(f"  Total vagas      : {n_vag}")
+    log(f"  Total no JSON    : {len(final)}/{MAX_ITENS}")
+    log(f"  Categorias:")
+    for cat,count in sorted(cats.items(),key=lambda x:-x[1]):
+        log(f"    {cat}: {count}")
     print("="*60)
 
     salvar_log()
