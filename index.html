@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Vagas de Emprego em Nampula 2026 | Notícias de Moçambique – Nampula é a Cena</title>
 <meta name="description" content="Vagas de emprego em Nampula e Moçambique actualizadas diariamente. Notícias, oportunidades de trabalho e classificados da província de Nampula. Portal número 1 do norte de Moçambique.">
-<meta name="keywords" content="vagas de emprego nampula, emprego nampula 2026, notícias nampula, vagas moçambique, emprego moçambique, mercado nampula, trabalho nampula, constantino paulo">
+<meta name="keywords" content="vagas de emprego nampula, emprego nampula 2026, notícias nampula, vagas moçambique, emprego moçambique, mercado nampula, trabalho nampula, constantinopaulo,HCM,HCN,HCB,HCQ">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="author" content="Constantino Paulo">
 <meta name="language" content="Portuguese">
@@ -759,8 +759,8 @@ function actualizarFiltrosHome(){
     ?dadosBase.filter(function(i){return i.tipo!=='vaga';})
     :dadosBase.filter(function(i){return i.tipo===tipoAtivo;});
   var cats=[...new Set(base.filter(function(i){return i.categoria;}).map(function(i){return i.categoria;}))];
-  el.innerHTML='<button class="btn-f active" onclick="filtrarHome('Tudo',this)">Tudo</button>'
-    +cats.map(function(c){return '<button class="btn-f" onclick="filtrarHome(''+c+'',this)">'+c+'</button>';}).join('');
+  el.innerHTML='<button class="btn-f active" onclick="filtrarHome(\'Tudo\',this)">Tudo</button>'
+    +cats.map(function(c){return '<button class="btn-f" onclick="filtrarHome(\''+c+'\',this)">'+c+'</button>';}).join('');
 }
 
 function filtrarHome(cat,btn){
